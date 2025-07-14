@@ -1,0 +1,43 @@
+# PyCharm-specific files
+.idea/
+__pycache__/
+
+# Virtual environment
+venv/
+.venv/ # Some tools might use .venv
+
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled files
+*.exe
+*.dll
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Data files (often generated or too large for Git)
+data/results/  # The raw yearly data, as this can be re-scraped
+# data/cleaned/ # Consider ignoring if these can also be regenerated easily
+#               # or if they become very large. For now, keep them if you want to commit cleaned data.
+# If you choose to ignore cleaned, add:
+# data/cleaned/*.csv
+# data/cleaned/*.parquet
+
+# Machine Learning models (if they become large, otherwise keep them)
+models/ # If your models are large, you might use Git LFS later, or ignore them and re-train.
+
+# Streamlit
+.streamlit/
+streamlit_app_logs.txt
+
+# Environment variables
+.env
+
+# Jupyter notebooks (if you add them for experimentation)
+.ipynb_checkpoints/
