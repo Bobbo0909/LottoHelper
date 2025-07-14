@@ -1,50 +1,63 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime, date
+import os # Import os for path operations
+
+# Import data loading functions and LOTTERY_CONFIGS from data_loader
+from src.data_loader import load_cleaned_data_for_ml, get_lottery_config, LOTTERY_CONFIGS
+# Import MLPredictor only if it's actually used in this file (it is for config helper)
+from src.ml_predictor import MLPredictor
 
 # Assuming these imports are correctly configured based on your project structure
 from src.pattern_analyzer import LottoPatternAnalyzer
 from src.prediction_validator import LottoPredictionValidator
-from src.ml_predictor import load_cleaned_data_for_ml, MLPredictor
+
 
 # --- Page Setup ---
 st.title("📊 Pattern-Based Predictor")
 st.write("Generate and validate lottery numbers based on historical patterns and statistics.")
 
 # --- Lottery Type Selection ---
-# We use MLPredictor to access lottery configurations consistently
-predictor_config_helper = MLPredictor()
-LOTTERY_OPTIONS = {
-    "Daily Lotto (1-36, 5 picks)": "Daily Lotto",
-    "Lotto (1-52, 6 picks + Bonus)": "Lotto",
-    "Powerball (1-50, 5 picks + Powerball 1-20)": "Powerball"
-}
+# Use LOTTERY_CONFIGS directly from data_loader for consistency
+lottery_names = list(LOTTERY_CONFIGS.keys())
+default_lottery_name = 'Lotto' # Set a default for this page
+if default_lottery_name not in lottery_names:
+    default_lottery_name = lottery_names[0] if lottery_names else None
 
-selected_option = st.selectbox(
+selected_lottery_display_name = st.selectbox(
     "Select Lottery Type:",
-    list(LOTTERY_OPTIONS.keys())
+    lottery_names,
+    index=lottery_names.index(default_lottery_name) if default_lottery_name else 0
 )
 
-lottery_type_display_name = LOTTERY_OPTIONS[selected_option]
-lottery_config = predictor_config_helper.lottery_configs[lottery_type_display_name]
-file_name = lottery_config['file']
+# Get the actual configuration for the selected lottery
+lottery_config = get_lottery_config(selected_lottery_display_name)
+
+# Ensure config is found before proceeding
+if lottery_config is None:
+    st.error(f"Configuration for '{selected_lottery_display_name}' not found. Please check LOTTERY_CONFIGS in data_loader.py.")
+    st.stop() # Stop execution if config is missing
+
+# Use the correct file name from the config
+file_name = lottery_config['cleaned_file']
 
 
 # --- Data Loading ---
-# We use the cached data loader function from ml_predictor.py
-@st.cache_data(show_spinner="Loading and preprocessing historical data...")
+# We use the cached data loader function from data_loader.py
+# The load_cleaned_data_for_ml function itself is already cached, so no need for nested @st.cache_data here.
 def get_data_for_pattern_analyzer(lottery_type_name, file):
+    # This directly calls the cached function from data_loader
     return load_cleaned_data_for_ml(lottery_type_name, file)
 
 
-df_full = get_data_for_pattern_analyzer(lottery_type_display_name, file_name)
+df_full = get_data_for_pattern_analyzer(selected_lottery_display_name, file_name)
 
 # Flag to control rendering of the rest of the page. Initialize assuming data is available.
 data_is_available = True
 
 if df_full.empty:
     st.warning(
-        f"No historical data available for {lottery_type_display_name}. Please ensure data is updated via the 'Data Overview' page or the Home screen.")
+        f"No historical data available for {selected_lottery_display_name}. Please ensure data is updated via the 'Data Overview' page or the Home screen.")
     data_is_available = False
 else:
     # Ensure 'Date' column is in datetime format before getting min/max for date filter
@@ -65,10 +78,11 @@ else:
         st.sidebar.error("Error: End date must be after start date.")
         data_is_available = False  # Mark as not available due to invalid date range
     else:
-        # Use LottoPatternAnalyzer's update_date_range for filtering
-        temp_analyzer_for_filter = LottoPatternAnalyzer(df_full, lottery_config)
-        filtered_analyzer = temp_analyzer_for_filter.update_date_range(start_date, end_date)
-        df_to_analyze = filtered_analyzer.df  # Get the filtered DataFrame from the new analyzer instance
+        # Initialize LottoPatternAnalyzer with the full data first, then filter
+        # It's better to pass the full df and let the analyzer handle filtering internally if it has that method
+        # Or, filter the df here and pass the filtered df. Let's filter here for clarity.
+        df_filtered_by_date = df_full[(df_full['Date'].dt.date >= start_date) & (df_full['Date'].dt.date <= end_date)].copy()
+        df_to_analyze = df_filtered_by_date # Use the filtered DataFrame
 
         if df_to_analyze.empty:
             st.warning("No data found for the selected date range. Please adjust the dates.")
@@ -80,6 +94,7 @@ if data_is_available:
     st.markdown("---")
     st.subheader("Historical Pattern Analysis")
     # Initialize LottoPatternAnalyzer with the (potentially) filtered data
+    # Ensure LottoPatternAnalyzer can handle the df_to_analyze and lottery_config
     pattern_analyzer = LottoPatternAnalyzer(df_to_analyze, lottery_config)
     pattern_analyzer.show_pattern_analysis()
 
@@ -107,7 +122,7 @@ if data_is_available:
                     download_data = []
                     for pred, val in zip(predictions_with_scores, validation_results):
                         download_data.append({
-                            "Lottery_Type": lottery_type_display_name,
+                            "Lottery_Type": selected_lottery_display_name, # Use the display name
                             # FIX: Format the combination to be a clean string for CSV
                             "Combination": ', '.join(map(str, pred[0])),
                             "Score": pred[1],
@@ -121,7 +136,7 @@ if data_is_available:
                     st.download_button(
                         label="Download Predictions as CSV",
                         data=csv,
-                        file_name=f"{lottery_type_display_name}_pattern_predictions_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+                        file_name=f"{selected_lottery_display_name.replace(' ', '_').lower()}_pattern_predictions_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
                         mime="text/csv",
                         help="Download the generated pattern-based predictions and their validation results."
                     )
