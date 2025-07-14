@@ -1,177 +1,120 @@
 # pages/1_ML_Predictor.py
 import streamlit as st
 import pandas as pd
-import numpy as np
-import plotly.express as px
+from datetime import datetime
+import logging
+
 from src.ml_predictor import MLPredictor, load_cleaned_data_for_ml
-import os
-from datetime import datetime  # ADDED: For current date in CSV filename
 
-# --- Page Configuration ---
-st.set_page_config(
-    page_title="ML Predictor",
-    page_icon="🤖",
-    layout="wide"
-)
+predictor = MLPredictor()
 
-st.title("🤖 Machine Learning Lottery Prediction")
+# --- Page Setup ---
+st.title("🤖 ML Predictor")
+st.write("Generate potential lottery numbers using Machine Learning.")
 
+# --- Data Preparation and Model Training ---
 
-# Instantiate the MLPredictor class once using st.cache_resource
-@st.cache_resource
-def get_predictor():
-    return MLPredictor()
+if 'data' not in st.session_state:
+    st.session_state.data = {}
+if 'models_trained' not in st.session_state:
+    st.session_state.models_trained = {}
 
-
-predictor = get_predictor()
-
-# Select lottery type
-# Define lottery types and map them to the keys used in MLPredictor's config
-lottery_type_map = {
-    "Daily Lotto": 'Daily Lotto',
-    "Lotto": 'Lotto',
-    "Powerball": 'Powerball'
+LOTTERY_OPTIONS = {
+    "Daily Lotto (1-36, 5 picks)": "Daily Lotto",
+    "Lotto (1-52, 6 picks + Bonus)": "Lotto",
+    "Powerball (1-50, 5 picks + Powerball 1-20)": "Powerball"
 }
-lottery_type_display = st.selectbox(
-    "Select Lottery Type",
-    list(lottery_type_map.keys())
-)
-selected_lottery = lottery_type_map[lottery_type_display]
 
-# Load and prepare data for the selected lottery type
-# This uses the @st.cache_data function from src/ml_predictor.py
-df_lottery = load_cleaned_data_for_ml(
-    selected_lottery,
-    predictor.lottery_configs[selected_lottery]['file']
+selected_option = st.selectbox(
+    "Select Lottery Type:",
+    list(LOTTERY_OPTIONS.keys())
 )
 
-if df_lottery.empty:
-    st.warning(
-        "No data available. Please go to the main page and update the data first using the 'Update Lottery Data' button.")
-    st.stop()  # Stop further execution if no data
+lottery_type_display_name = LOTTERY_OPTIONS[selected_option]
+lottery_config = predictor.lottery_configs[lottery_type_display_name]
+file_name = lottery_config['file']
+
+st.markdown("---")
+st.subheader("Model Status")
+
+if lottery_type_display_name not in st.session_state.data:
+    df = load_cleaned_data_for_ml(lottery_type_display_name, file_name)
+    st.session_state.data[lottery_type_display_name] = df
 else:
-    # Corrected variable name from df to df_lottery
-    st.write(f"Loaded **{len(df_lottery)}** draws for {selected_lottery}.")
-    st.write("Latest Draw Date:", df_lottery['Date'].max().strftime('%Y-%m-%d'))
-    st.write("---")
+    df = st.session_state.data[lottery_type_display_name]
 
-    # Train models if needed
-    if selected_lottery not in predictor.models:
-        st.info(f"Training models for {selected_lottery}...")
+if lottery_type_display_name not in st.session_state.models_trained:
+    if not df.empty:
+        st.info(f"Training models for {lottery_type_display_name}...")
+        try:
+            success = predictor.train_model(lottery_type_display_name, df)
+            st.session_state.models_trained[lottery_type_display_name] = success
+            if success:
+                st.success("Models trained successfully!")
+            else:
+                st.error("Failed to train models. Please ensure you have sufficient data.")
+        except Exception as e:
+            st.error(f"An error occurred during model training: {e}")
+            st.session_state.models_trained[lottery_type_display_name] = False
+    else:
+        st.warning(f"No data available for {lottery_type_display_name}. Please update data in 'Data Overview'.")
+else:
+    if st.session_state.models_trained[lottery_type_display_name]:
+        st.success("Models are already trained and ready for prediction.")
+    else:
+        st.error("Models failed to train previously.")
 
-        with st.spinner("Training models..."):
-            if not predictor.train_model(selected_lottery, df_lottery):
-                st.error(
-                    "Failed to train models. Check `logs/ml_predictor.log` for details. This often happens if there isn't enough historical data or if the data is not correctly structured.")
-                st.stop()  # Stop further execution if training fails
+# --- Prediction Generation and Display ---
+st.markdown("---")
+st.subheader("Generate Predictions")
 
-    if selected_lottery in predictor.models:
-        # Show model performance
-        st.subheader("Model Performance")
-        for model_name, score in predictor.models[selected_lottery]['scores'].items():
-            st.metric(f"{model_name.upper()} Model Score", f"{score:.2%}")
+if st.session_state.models_trained.get(lottery_type_display_name):
+    num_predictions = st.slider("Number of Predictions to Generate", 1, 10, 5)
 
-        # Explanation of models in an expander
-        with st.expander("What are these models?"):
-            st.write("""
-            Our prediction system uses two powerful Machine Learning models:
-            """)
-            st.markdown("""
-            **1. Random Forest (RF)**
-            - **How it works:** Imagine a "forest" of many individual "decision trees." Each tree makes its own prediction. The Random Forest combines the predictions from all these trees (like a vote) to get the final, more accurate, and stable prediction. It's good at handling complex data and avoiding overfitting.
-            - **Analogy:** Like asking a diverse group of experts to each give their best guess and then going with the most popular answer.
-
-            **2. Gradient Boosting (GB)**
-            - **How it works:** Gradient Boosting also builds a series of decision trees, but it does so sequentially. Each new tree tries to correct the errors made by the previous trees. It focuses on the mistakes and learns from them, gradually improving its accuracy.
-            - **Analogy:** Like a team where each member learns from the previous one's mistakes, iteratively improving the overall performance on a task.
-
-            Both models are ensemble methods, meaning they combine multiple simpler models to achieve better performance than a single model alone.
-            """)
-
-        st.write("---")
-
-        # Generate predictions
-        st.subheader("Generate Predictions")
-        num_predictions = st.slider(
-            "Number of predictions to generate",
-            min_value=1,
-            max_value=10,
-            value=5
-        )
-
-        if st.button("Generate Predictions"):
+    if st.button("Generate Predictions"):
+        if df.empty:
+            st.warning("Cannot generate predictions: historical data is empty.")
+        else:
             with st.spinner("Generating predictions..."):
-                predictions = predictor.generate_predictions(
-                    selected_lottery,
-                    df_lottery,
-                    num_predictions
+                predictions_list = predictor.generate_predictions(lottery_type_display_name, df, num_predictions)
+
+            if predictions_list:
+                st.success(f"Generated {len(predictions_list)} predictions.")
+
+                prediction_data = []
+                for i, (numbers, confidence) in enumerate(predictions_list):
+                    if lottery_config['has_bonus']:
+                        main_numbers_str = ", ".join(map(str, numbers[:-1]))
+                        bonus_number_str = str(numbers[-1])
+                        formatted_numbers = f"{main_numbers_str} | Bonus: {bonus_number_str}"
+                    else:
+                        formatted_numbers = ", ".join(map(str, numbers))
+
+                    st.markdown(f"**Prediction {i + 1}:** {formatted_numbers} (Confidence: {confidence:.2%})")
+
+                    prediction_data.append({
+                        "Prediction_Index": i + 1,
+                        "Numbers_List": numbers,
+                        "Confidence": confidence,
+                        "Lottery_Type": lottery_type_display_name,
+                        "Date_Generated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    })
+
+                    predictor.show_prediction_analysis(numbers, lottery_type_display_name, df)
+
+                predictions_df = pd.DataFrame(prediction_data)
+
+                csv = predictions_df.to_csv(index=False).encode('utf-8')
+                st.download_button(
+                    label="Download Predictions as CSV",
+                    data=csv,
+                    file_name=f"{lottery_type_display_name}_predictions_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+                    mime="text/csv",
+                    help="Download the generated predictions and their confidence scores."
                 )
 
-                if predictions:
-                    # Display individual predictions
-                    for i, (numbers, confidence) in enumerate(predictions, 1):
-                        with st.expander(f"Prediction {i} - Confidence: {confidence:.2%}"):
-                            config = predictor.lottery_configs[selected_lottery]
+            else:
+                st.error("Could not generate predictions. Please check the logs for details.")
 
-                            if config['has_bonus']:
-                                main_numbers = numbers[:-1]
-                                bonus = numbers[-1]
-                                st.write(f"Main Numbers: {', '.join(map(str, main_numbers))}")
-                                st.write(f"{'Powerball' if selected_lottery == 'Powerball' else 'Bonus'}: {bonus}")
-                            else:
-                                st.write(f"Numbers: {', '.join(map(str, numbers))}")
-
-                            # Show analysis by calling the class method and passing the DataFrame
-                            predictor._show_prediction_analysis(numbers, selected_lottery, df_lottery)
-
-                    st.write("---")  # Separator before download button
-
-                    # --- CSV Export Logic ---
-                    csv_data = []
-                    headers = []
-
-                    config = predictor.lottery_configs[selected_lottery]
-
-                    # Determine headers based on lottery type
-                    for i in range(1, config['picks'] + 1):
-                        headers.append(f"Number {i}")
-                    if config['has_bonus']:
-                        if selected_lottery == 'Powerball':
-                            headers.append("Powerball")
-                        else:
-                            headers.append("Bonus")
-                    # 'Confidence' column removed as per user request
-
-                    for numbers, confidence in predictions:  # 'confidence' is available but not added to row
-                        row = []
-                        # Extract main numbers for export
-                        main_numbers_for_export = numbers[:-1] if config['has_bonus'] else numbers
-                        row.extend(main_numbers_for_export)
-
-                        # Add bonus number if applicable
-                        if config['has_bonus']:
-                            row.append(numbers[-1])
-
-                        csv_data.append(row)
-
-                    df_export = pd.DataFrame(csv_data, columns=headers)
-
-                    # Convert DataFrame to CSV string
-                    csv_string = df_export.to_csv(index=False)
-
-                    # Generate filename with current date and time
-                    current_date = datetime.now().strftime("%Y-%m-%d_%H%M%S")
-                    file_name = f"{selected_lottery.lower().replace(' ', '_')}_predictions_{current_date}.csv"
-
-                    st.download_button(
-                        label="Download Predictions as CSV",
-                        data=csv_string,
-                        file_name=file_name,
-                        mime="text/csv",
-                        help="Download all generated predictions to a CSV file."
-                    )
-                    # --- End CSV Export Logic ---
-
-                else:
-                    st.error(
-                        "Failed to generate predictions. This could happen if there isn't enough historical data or an issue occurred during the prediction process.")
+else:
+    st.warning("Please ensure models are trained successfully before generating predictions.")
