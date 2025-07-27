@@ -1,0 +1,5 @@
+2025-07-14 13:42:30,528 - INFO - Successfully loaded and preprocessed 2506 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 13:42:44,905 - INFO - Trained rf model for Daily Lotto. Score: 45.75%
+2025-07-14 13:46:55,958 - INFO - Successfully loaded and preprocessed 2506 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 13:47:14,322 - INFO - Trained rf model for Daily Lotto. Score: 45.75%
+2025-07-14 13:48:17,924 - INFO - Successfully loaded and preprocessed 2559 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet

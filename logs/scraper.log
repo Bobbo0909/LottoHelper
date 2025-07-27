@@ -1,0 +1,1421 @@
+2025-07-14 11:36:33,798 - INFO - Starting incremental lottery data scraping process...
+2025-07-14 11:36:33,798 - INFO - Processing DAILY_LOTTO...
+2025-07-14 11:36:33,799 - INFO - Raw data file for daily_lotto not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv. Assuming clean start.
+2025-07-14 11:36:33,799 - INFO - Updating DAILY_LOTTO data. Starting from year 2019 with last known date N/A
+2025-07-14 11:36:33,799 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2019 for daily_lotto (Year: 2019)
+2025-07-14 11:36:35,400 - INFO - Scraped 296 new/recent draws for daily_lotto 2019
+2025-07-14 11:36:37,400 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2020 for daily_lotto (Year: 2020)
+2025-07-14 11:36:39,184 - INFO - Scraped 365 new/recent draws for daily_lotto 2020
+2025-07-14 11:36:41,184 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2021 for daily_lotto (Year: 2021)
+2025-07-14 11:36:43,462 - INFO - Scraped 364 new/recent draws for daily_lotto 2021
+2025-07-14 11:36:45,463 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2022 for daily_lotto (Year: 2022)
+2025-07-14 11:36:46,668 - INFO - Scraped 364 new/recent draws for daily_lotto 2022
+2025-07-14 11:36:48,670 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2023 for daily_lotto (Year: 2023)
+2025-07-14 11:36:49,892 - INFO - Scraped 364 new/recent draws for daily_lotto 2023
+2025-07-14 11:36:51,893 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2024 for daily_lotto (Year: 2024)
+2025-07-14 11:36:53,024 - INFO - Scraped 365 new/recent draws for daily_lotto 2024
+2025-07-14 11:36:55,024 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 11:36:56,171 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 11:36:58,222 - INFO - Combined daily_lotto data. New draws added: 2312. Total unique draws: 2312
+2025-07-14 11:36:58,247 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 11:36:59,248 - INFO - Processing LOTTO...
+2025-07-14 11:36:59,248 - INFO - Raw data file for lotto not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv. Assuming clean start.
+2025-07-14 11:36:59,248 - INFO - Updating LOTTO data. Starting from year 2000 with last known date N/A
+2025-07-14 11:36:59,249 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2000 for lotto (Year: 2000)
+2025-07-14 11:37:00,918 - INFO - Scraped 43 new/recent draws for lotto 2000
+2025-07-14 11:37:02,919 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2001 for lotto (Year: 2001)
+2025-07-14 11:37:04,541 - INFO - Scraped 65 new/recent draws for lotto 2001
+2025-07-14 11:37:06,542 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2002 for lotto (Year: 2002)
+2025-07-14 11:37:07,749 - INFO - Scraped 103 new/recent draws for lotto 2002
+2025-07-14 11:37:09,750 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2003 for lotto (Year: 2003)
+2025-07-14 11:37:10,494 - INFO - Scraped 105 new/recent draws for lotto 2003
+2025-07-14 11:37:12,495 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2004 for lotto (Year: 2004)
+2025-07-14 11:37:13,212 - INFO - Scraped 105 new/recent draws for lotto 2004
+2025-07-14 11:37:15,212 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2005 for lotto (Year: 2005)
+2025-07-14 11:37:15,996 - INFO - Scraped 104 new/recent draws for lotto 2005
+2025-07-14 11:37:17,996 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2006 for lotto (Year: 2006)
+2025-07-14 11:37:19,760 - INFO - Scraped 104 new/recent draws for lotto 2006
+2025-07-14 11:37:21,761 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2007 for lotto (Year: 2007)
+2025-07-14 11:37:22,464 - INFO - Scraped 49 new/recent draws for lotto 2007
+2025-07-14 11:37:24,465 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2008 for lotto (Year: 2008)
+2025-07-14 11:37:26,164 - INFO - Scraped 105 new/recent draws for lotto 2008
+2025-07-14 11:37:28,165 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2009 for lotto (Year: 2009)
+2025-07-14 11:37:29,037 - INFO - Scraped 104 new/recent draws for lotto 2009
+2025-07-14 11:37:31,038 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2010 for lotto (Year: 2010)
+2025-07-14 11:37:32,698 - INFO - Scraped 103 new/recent draws for lotto 2010
+2025-07-14 11:37:34,699 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2011 for lotto (Year: 2011)
+2025-07-14 11:37:35,448 - INFO - Scraped 105 new/recent draws for lotto 2011
+2025-07-14 11:37:37,449 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2012 for lotto (Year: 2012)
+2025-07-14 11:37:39,226 - INFO - Scraped 104 new/recent draws for lotto 2012
+2025-07-14 11:37:41,227 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2013 for lotto (Year: 2013)
+2025-07-14 11:37:42,510 - INFO - Scraped 103 new/recent draws for lotto 2013
+2025-07-14 11:37:44,511 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2014 for lotto (Year: 2014)
+2025-07-14 11:37:45,256 - INFO - Scraped 105 new/recent draws for lotto 2014
+2025-07-14 11:37:47,257 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2015 for lotto (Year: 2015)
+2025-07-14 11:37:47,970 - INFO - Scraped 104 new/recent draws for lotto 2015
+2025-07-14 11:37:49,971 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2016 for lotto (Year: 2016)
+2025-07-14 11:37:50,686 - INFO - Scraped 105 new/recent draws for lotto 2016
+2025-07-14 11:37:52,687 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2017 for lotto (Year: 2017)
+2025-07-14 11:37:55,381 - INFO - Scraped 104 new/recent draws for lotto 2017
+2025-07-14 11:37:57,383 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2018 for lotto (Year: 2018)
+2025-07-14 11:37:58,117 - INFO - Scraped 104 new/recent draws for lotto 2018
+2025-07-14 11:38:00,118 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2019 for lotto (Year: 2019)
+2025-07-14 11:38:01,328 - INFO - Scraped 103 new/recent draws for lotto 2019
+2025-07-14 11:38:03,329 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2020 for lotto (Year: 2020)
+2025-07-14 11:38:04,109 - INFO - Scraped 105 new/recent draws for lotto 2020
+2025-07-14 11:38:06,110 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2021 for lotto (Year: 2021)
+2025-07-14 11:38:07,420 - INFO - Scraped 103 new/recent draws for lotto 2021
+2025-07-14 11:38:09,421 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2022 for lotto (Year: 2022)
+2025-07-14 11:38:10,147 - INFO - Scraped 105 new/recent draws for lotto 2022
+2025-07-14 11:38:12,147 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2023 for lotto (Year: 2023)
+2025-07-14 11:38:12,897 - INFO - Scraped 104 new/recent draws for lotto 2023
+2025-07-14 11:38:14,898 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2024 for lotto (Year: 2024)
+2025-07-14 11:38:16,666 - INFO - Scraped 103 new/recent draws for lotto 2024
+2025-07-14 11:38:18,666 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 11:38:20,335 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 11:38:22,363 - INFO - Combined lotto data. New draws added: 2503. Total unique draws: 2503
+2025-07-14 11:38:22,393 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 11:38:23,394 - INFO - Processing POWERBALL...
+2025-07-14 11:38:23,395 - INFO - Raw data file for powerball not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv. Assuming clean start.
+2025-07-14 11:38:23,395 - INFO - Updating POWERBALL data. Starting from year 2009 with last known date N/A
+2025-07-14 11:38:23,395 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2009 for powerball (Year: 2009)
+2025-07-14 11:38:24,474 - INFO - Scraped 19 new/recent draws for powerball 2009
+2025-07-14 11:38:26,475 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2010 for powerball (Year: 2010)
+2025-07-14 11:38:28,413 - INFO - Scraped 104 new/recent draws for powerball 2010
+2025-07-14 11:38:30,414 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2011 for powerball (Year: 2011)
+2025-07-14 11:38:31,558 - INFO - Scraped 103 new/recent draws for powerball 2011
+2025-07-14 11:38:33,560 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2012 for powerball (Year: 2012)
+2025-07-14 11:38:34,720 - INFO - Scraped 102 new/recent draws for powerball 2012
+2025-07-14 11:38:36,721 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2013 for powerball (Year: 2013)
+2025-07-14 11:38:40,490 - INFO - Scraped 104 new/recent draws for powerball 2013
+2025-07-14 11:38:42,490 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2014 for powerball (Year: 2014)
+2025-07-14 11:38:43,198 - INFO - Scraped 103 new/recent draws for powerball 2014
+2025-07-14 11:38:45,199 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2015 for powerball (Year: 2015)
+2025-07-14 11:38:46,405 - INFO - Scraped 102 new/recent draws for powerball 2015
+2025-07-14 11:38:48,406 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2016 for powerball (Year: 2016)
+2025-07-14 11:38:49,140 - INFO - Scraped 105 new/recent draws for powerball 2016
+2025-07-14 11:38:51,141 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2017 for powerball (Year: 2017)
+2025-07-14 11:38:51,884 - INFO - Scraped 104 new/recent draws for powerball 2017
+2025-07-14 11:38:53,884 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2018 for powerball (Year: 2018)
+2025-07-14 11:38:54,652 - INFO - Scraped 104 new/recent draws for powerball 2018
+2025-07-14 11:38:56,653 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2019 for powerball (Year: 2019)
+2025-07-14 11:38:57,413 - INFO - Scraped 105 new/recent draws for powerball 2019
+2025-07-14 11:38:59,413 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2020 for powerball (Year: 2020)
+2025-07-14 11:39:01,078 - INFO - Scraped 103 new/recent draws for powerball 2020
+2025-07-14 11:39:03,079 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2021 for powerball (Year: 2021)
+2025-07-14 11:39:04,308 - INFO - Scraped 105 new/recent draws for powerball 2021
+2025-07-14 11:39:06,309 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2022 for powerball (Year: 2022)
+2025-07-14 11:39:07,035 - INFO - Scraped 104 new/recent draws for powerball 2022
+2025-07-14 11:39:09,035 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2023 for powerball (Year: 2023)
+2025-07-14 11:39:09,768 - INFO - Scraped 104 new/recent draws for powerball 2023
+2025-07-14 11:39:11,768 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2024 for powerball (Year: 2024)
+2025-07-14 11:39:12,480 - INFO - Scraped 105 new/recent draws for powerball 2024
+2025-07-14 11:39:14,481 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 11:39:15,687 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 11:39:17,712 - INFO - Combined powerball data. New draws added: 1631. Total unique draws: 1631
+2025-07-14 11:39:17,724 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 11:39:18,726 - INFO - Incremental scraping completed.
+2025-07-14 11:51:50,542 - INFO - Starting combined data update (scrape + clean)...
+2025-07-14 11:51:50,542 - INFO - Initiating data scraping...
+2025-07-14 11:51:50,542 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 11:51:50,542 - INFO - Processing DAILY_LOTTO...
+2025-07-14 11:51:50,564 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 11:51:50,565 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 11:51:50,566 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 11:51:51,994 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 11:51:54,054 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 11:51:54,068 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 11:51:55,069 - INFO - Processing LOTTO...
+2025-07-14 11:51:55,099 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 11:51:55,100 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 11:51:55,101 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 11:51:57,151 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 11:51:59,194 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 11:51:59,218 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 11:52:00,219 - INFO - Processing POWERBALL...
+2025-07-14 11:52:00,240 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 11:52:00,241 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 11:52:00,241 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 11:52:01,886 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 11:52:03,930 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 11:52:03,940 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 11:52:04,941 - INFO - Incremental scraping completed by callable function.
+2025-07-14 11:52:04,941 - INFO - Initiating data cleaning...
+2025-07-14 11:52:04,942 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 11:52:04,942 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 11:52:04,943 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 11:52:05,036 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 11:52:05,044 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 11:52:05,045 - INFO - Cleaning data for LOTTO...
+2025-07-14 11:52:05,045 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 11:52:05,162 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 11:52:05,169 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 11:52:05,169 - INFO - Cleaning data for POWERBALL...
+2025-07-14 11:52:05,170 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 11:52:05,236 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 11:52:05,241 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 11:52:05,242 - INFO - Data cleaning completed by callable function.
+2025-07-14 11:52:05,242 - INFO - Combined data update completed successfully!
+2025-07-14 11:53:00,679 - INFO - Starting combined data update (scrape + clean)...
+2025-07-14 11:53:00,680 - INFO - Initiating data scraping...
+2025-07-14 11:53:00,680 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 11:53:00,680 - INFO - Processing DAILY_LOTTO...
+2025-07-14 11:53:00,698 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 11:53:00,699 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 11:53:00,699 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 11:53:02,292 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 11:53:04,317 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 11:53:04,328 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 11:53:05,329 - INFO - Processing LOTTO...
+2025-07-14 11:53:05,365 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 11:53:05,365 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 11:53:05,366 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 11:53:06,051 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 11:53:08,104 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 11:53:08,120 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 11:53:09,121 - INFO - Processing POWERBALL...
+2025-07-14 11:53:09,159 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 11:53:09,160 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 11:53:09,160 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 11:53:09,848 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 11:53:11,903 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 11:53:11,925 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 11:53:12,926 - INFO - Incremental scraping completed by callable function.
+2025-07-14 11:53:12,928 - INFO - Initiating data cleaning...
+2025-07-14 11:53:12,929 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 11:53:12,930 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 11:53:12,932 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 11:53:13,077 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 11:53:13,084 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 11:53:13,084 - INFO - Cleaning data for LOTTO...
+2025-07-14 11:53:13,085 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 11:53:13,175 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 11:53:13,181 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 11:53:13,181 - INFO - Cleaning data for POWERBALL...
+2025-07-14 11:53:13,182 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 11:53:13,271 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 11:53:13,277 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 11:53:13,277 - INFO - Data cleaning completed by callable function.
+2025-07-14 11:53:13,278 - INFO - Combined data update completed successfully!
+2025-07-14 12:28:19,318 - INFO - Starting combined data update (scrape + clean)...
+2025-07-14 12:28:19,319 - INFO - Initiating data scraping...
+2025-07-14 12:28:19,319 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 12:28:19,319 - INFO - Processing DAILY_LOTTO...
+2025-07-14 12:28:19,343 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 12:28:19,344 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 12:28:19,344 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 12:28:21,134 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 12:28:23,172 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 12:28:23,186 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 12:28:24,187 - INFO - Processing LOTTO...
+2025-07-14 12:28:24,201 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 12:28:24,202 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 12:28:24,202 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 12:28:29,258 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 12:28:31,290 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 12:28:31,305 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 12:28:32,306 - INFO - Processing POWERBALL...
+2025-07-14 12:28:32,328 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 12:28:32,328 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 12:28:32,329 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 12:28:33,023 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 12:28:35,046 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 12:28:35,056 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 12:28:36,057 - INFO - Incremental scraping completed by callable function.
+2025-07-14 12:28:36,057 - INFO - Initiating data cleaning...
+2025-07-14 12:28:36,058 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 12:28:36,058 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 12:28:36,058 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 12:28:36,158 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 12:28:36,167 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 12:28:36,167 - INFO - Cleaning data for LOTTO...
+2025-07-14 12:28:36,168 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 12:28:36,344 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 12:28:36,351 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 12:28:36,352 - INFO - Cleaning data for POWERBALL...
+2025-07-14 12:28:36,352 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 12:28:36,418 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 12:28:36,424 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 12:28:36,424 - INFO - Data cleaning completed by callable function.
+2025-07-14 12:28:36,425 - INFO - Combined data update completed successfully!
+2025-07-14 12:28:52,986 - ERROR - Error in train_model: 'daily_lotto'
+2025-07-14 12:30:09,077 - ERROR - Error in train_model: 'lotto'
+2025-07-14 12:34:42,638 - ERROR - Error loading or processing cleaned data for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet: 'int' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\src\ml_predictor.py", line 60, in load_cleaned_data_for_ml
+    df['Numbers_List'] = df['Numbers'].apply(
+                         ~~~~~~~~~~~~~~~~~~~^
+        lambda x: sorted([int(n.strip()) for n in ast.literal_eval(x)])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        if pd.notnull(x) and isinstance(x, str) else []
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\series.py", line 4935, in apply
+    ).apply()
+      ~~~~~^^
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+        mapper=curried, na_action=action, convert=self.convert_dtype
+    )
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\src\ml_predictor.py", line 61, in <lambda>
+    lambda x: sorted([int(n.strip()) for n in ast.literal_eval(x)])
+                          ^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+2025-07-14 12:34:49,741 - INFO - Starting combined data update (scrape + clean)...
+2025-07-14 12:34:49,742 - INFO - Initiating data scraping...
+2025-07-14 12:34:49,743 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 12:34:49,743 - INFO - Processing DAILY_LOTTO...
+2025-07-14 12:34:49,773 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 12:34:49,774 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 12:34:49,774 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 12:34:50,718 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 12:34:52,754 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 12:34:52,766 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 12:34:53,767 - INFO - Processing LOTTO...
+2025-07-14 12:34:53,780 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 12:34:53,781 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 12:34:53,781 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 12:34:54,468 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 12:34:56,515 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 12:34:56,530 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 12:34:57,531 - INFO - Processing POWERBALL...
+2025-07-14 12:34:57,573 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 12:34:57,574 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 12:34:57,575 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 12:34:59,208 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 12:35:01,257 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 12:35:01,268 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 12:35:02,269 - INFO - Incremental scraping completed by callable function.
+2025-07-14 12:35:02,270 - INFO - Initiating data cleaning...
+2025-07-14 12:35:02,271 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 12:35:02,271 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 12:35:02,272 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 12:35:02,414 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 12:35:02,421 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 12:35:02,421 - INFO - Cleaning data for LOTTO...
+2025-07-14 12:35:02,422 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 12:35:02,535 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 12:35:02,542 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 12:35:02,542 - INFO - Cleaning data for POWERBALL...
+2025-07-14 12:35:02,542 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 12:35:02,616 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 12:35:02,622 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 12:35:02,623 - INFO - Data cleaning completed by callable function.
+2025-07-14 12:35:02,623 - INFO - Combined data update completed successfully!
+2025-07-14 12:36:06,261 - ERROR - Error loading or processing cleaned data for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet: 'int' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\src\ml_predictor.py", line 60, in load_cleaned_data_for_ml
+    df['Numbers_List'] = df['Numbers'].apply(
+                         ~~~~~~~~~~~~~~~~~~~^
+        lambda x: sorted([int(n.strip()) for n in ast.literal_eval(x)])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        if pd.notnull(x) and isinstance(x, str) else []
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\series.py", line 4935, in apply
+    ).apply()
+      ~~~~~^^
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+        mapper=curried, na_action=action, convert=self.convert_dtype
+    )
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "C:\Users\Robert\PycharmProjects\LottoHelper\src\ml_predictor.py", line 61, in <lambda>
+    lambda x: sorted([int(n.strip()) for n in ast.literal_eval(x)])
+                          ^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+2025-07-14 12:38:58,872 - INFO - Starting combined data update (scrape + clean)...
+2025-07-14 12:38:58,873 - INFO - Initiating data scraping...
+2025-07-14 12:38:58,873 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 12:38:58,874 - INFO - Processing DAILY_LOTTO...
+2025-07-14 12:38:58,895 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 12:38:58,895 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 12:38:58,895 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 12:39:07,653 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 12:39:09,736 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 12:39:09,751 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 12:39:10,752 - INFO - Processing LOTTO...
+2025-07-14 12:39:10,793 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 12:39:10,794 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 12:39:10,794 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 12:39:11,478 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 12:39:13,545 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 12:39:13,560 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 12:39:14,561 - INFO - Processing POWERBALL...
+2025-07-14 12:39:14,600 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 12:39:14,601 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 12:39:14,601 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 12:39:16,865 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 12:39:18,907 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 12:39:18,923 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 12:39:19,924 - INFO - Incremental scraping completed by callable function.
+2025-07-14 12:39:19,925 - INFO - Initiating data cleaning...
+2025-07-14 12:39:19,925 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 12:39:19,926 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 12:39:19,927 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 12:39:20,100 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 12:39:20,109 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 12:39:20,110 - INFO - Cleaning data for LOTTO...
+2025-07-14 12:39:20,110 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 12:39:20,294 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 12:39:20,305 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 12:39:20,305 - INFO - Cleaning data for POWERBALL...
+2025-07-14 12:39:20,306 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 12:39:20,422 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 12:39:20,429 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 12:39:20,429 - INFO - Data cleaning completed by callable function.
+2025-07-14 12:39:20,429 - INFO - Combined data update completed successfully!
+2025-07-14 12:39:48,294 - INFO - Successfully loaded and preprocessed 2506 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 12:40:04,893 - INFO - Trained rf model for Daily Lotto. Score: 45.75%
+2025-07-14 12:41:47,172 - INFO - Trained gb model for Daily Lotto. Score: 84.15%
+2025-07-14 12:43:10,116 - INFO - Successfully loaded and preprocessed 2559 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 12:43:14,768 - INFO - Trained rf model for Lotto. Score: 45.54%
+2025-07-14 12:46:53,868 - INFO - Trained gb model for Lotto. Score: 95.62%
+2025-07-14 12:49:08,069 - INFO - Successfully loaded and preprocessed 2506 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 12:49:27,795 - INFO - Trained rf model for Daily Lotto. Score: 45.75%
+2025-07-14 12:51:20,675 - INFO - Trained gb model for Daily Lotto. Score: 84.15%
+2025-07-14 12:58:37,473 - INFO - Starting combined data update (scrape + clean)...
+2025-07-14 12:58:37,473 - INFO - Initiating data scraping...
+2025-07-14 12:58:37,473 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 12:58:37,473 - INFO - Processing DAILY_LOTTO...
+2025-07-14 12:58:37,504 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 12:58:37,505 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 12:58:37,506 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 12:58:38,379 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 12:58:40,462 - INFO - Successfully loaded and preprocessed 2506 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 12:58:41,559 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 12:58:41,683 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 12:58:42,685 - INFO - Processing LOTTO...
+2025-07-14 12:58:42,739 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 12:58:42,747 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 12:58:42,752 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 12:58:43,836 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 12:58:45,909 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 12:58:45,949 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 12:58:46,951 - INFO - Processing POWERBALL...
+2025-07-14 12:58:46,994 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 12:58:46,995 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 12:58:46,996 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 12:58:49,469 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 12:58:51,546 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 12:58:51,608 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 12:58:52,626 - INFO - Incremental scraping completed by callable function.
+2025-07-14 12:58:52,659 - INFO - Initiating data cleaning...
+2025-07-14 12:58:52,723 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 12:58:52,786 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 12:58:52,844 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 12:58:53,496 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 12:58:53,547 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 12:58:53,550 - INFO - Cleaning data for LOTTO...
+2025-07-14 12:58:53,551 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 12:58:53,893 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 12:58:53,967 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 12:58:53,967 - INFO - Cleaning data for POWERBALL...
+2025-07-14 12:58:53,974 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 12:58:54,231 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 12:58:54,347 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 12:58:54,348 - INFO - Data cleaning completed by callable function.
+2025-07-14 12:58:54,348 - INFO - Combined data update completed successfully!
+2025-07-14 12:59:00,497 - INFO - Trained rf model for Daily Lotto. Score: 45.75%
+2025-07-14 13:00:57,110 - INFO - Trained gb model for Daily Lotto. Score: 84.15%
+2025-07-14 14:12:40,625 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 14:12:40,625 - INFO - Processing DAILY_LOTTO...
+2025-07-14 14:12:40,648 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 14:12:40,649 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 14:12:40,649 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 14:12:41,882 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 14:12:43,954 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 14:12:43,967 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 14:12:44,968 - INFO - Processing LOTTO...
+2025-07-14 14:12:45,002 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 14:12:45,003 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 14:12:45,003 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 14:12:45,656 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 14:12:47,675 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 14:12:47,685 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 14:12:48,686 - INFO - Processing POWERBALL...
+2025-07-14 14:12:48,715 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 14:12:48,715 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 14:12:48,715 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 14:12:50,906 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 14:12:52,951 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 14:12:52,964 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 14:12:53,965 - INFO - Incremental scraping completed by callable function.
+2025-07-14 14:12:53,965 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 14:12:53,966 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 14:12:53,966 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 14:12:54,098 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 14:12:54,148 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:12:54,148 - INFO - Cleaning data for LOTTO...
+2025-07-14 14:12:54,149 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 14:12:54,254 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 14:12:54,261 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:12:54,261 - INFO - Cleaning data for POWERBALL...
+2025-07-14 14:12:54,261 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 14:12:54,332 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 14:12:54,337 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 14:12:54,338 - INFO - Data cleaning completed by callable function.
+2025-07-14 14:13:50,300 - INFO - Successfully loaded and preprocessed 2506 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:14:06,176 - INFO - Trained rf model for Daily Lotto. Score: 45.75%
+2025-07-14 14:15:58,779 - INFO - Trained gb model for Daily Lotto. Score: 84.15%
+2025-07-14 14:19:38,473 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 14:19:38,473 - INFO - Processing DAILY_LOTTO...
+2025-07-14 14:19:38,492 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 14:19:38,492 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 14:19:38,492 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 14:19:39,240 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 14:19:41,317 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 14:19:41,334 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 14:19:42,334 - INFO - Processing LOTTO...
+2025-07-14 14:19:42,377 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 14:19:42,378 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 14:19:42,378 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 14:19:43,199 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 14:19:45,244 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 14:19:45,263 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 14:19:46,263 - INFO - Processing POWERBALL...
+2025-07-14 14:19:46,304 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 14:19:46,305 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 14:19:46,305 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 14:19:46,972 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 14:19:48,996 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 14:19:49,007 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 14:19:50,007 - INFO - Incremental scraping completed by callable function.
+2025-07-14 14:19:50,008 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 14:19:50,008 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 14:19:50,008 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 14:19:50,098 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 14:19:50,128 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:19:50,128 - INFO - Cleaning data for LOTTO...
+2025-07-14 14:19:50,128 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 14:19:50,243 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 14:19:50,251 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:19:50,251 - INFO - Cleaning data for POWERBALL...
+2025-07-14 14:19:50,252 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 14:19:50,363 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 14:19:50,369 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 14:19:50,369 - INFO - Data cleaning completed by callable function.
+2025-07-14 14:20:34,711 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 14:20:34,711 - INFO - Processing DAILY_LOTTO...
+2025-07-14 14:20:34,711 - INFO - Raw data file for daily_lotto not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv. Assuming clean start.
+2025-07-14 14:20:34,711 - INFO - Updating DAILY_LOTTO data. Starting from year 2019 with last known date N/A
+2025-07-14 14:20:34,711 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2019 for daily_lotto (Year: 2019)
+2025-07-14 14:20:36,571 - INFO - Scraped 296 new/recent draws for daily_lotto 2019
+2025-07-14 14:20:38,572 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2020 for daily_lotto (Year: 2020)
+2025-07-14 14:20:39,663 - INFO - Scraped 365 new/recent draws for daily_lotto 2020
+2025-07-14 14:20:41,665 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2021 for daily_lotto (Year: 2021)
+2025-07-14 14:20:42,824 - INFO - Scraped 364 new/recent draws for daily_lotto 2021
+2025-07-14 14:20:44,824 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2022 for daily_lotto (Year: 2022)
+2025-07-14 14:20:45,886 - INFO - Scraped 364 new/recent draws for daily_lotto 2022
+2025-07-14 14:20:47,886 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2023 for daily_lotto (Year: 2023)
+2025-07-14 14:20:49,209 - INFO - Scraped 364 new/recent draws for daily_lotto 2023
+2025-07-14 14:20:51,210 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2024 for daily_lotto (Year: 2024)
+2025-07-14 14:20:52,255 - INFO - Scraped 365 new/recent draws for daily_lotto 2024
+2025-07-14 14:20:54,256 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 14:20:55,029 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 14:20:57,039 - INFO - Combined daily_lotto data. New draws added: 2312. Total unique draws: 2312
+2025-07-14 14:20:57,085 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 14:20:58,087 - INFO - Processing LOTTO...
+2025-07-14 14:20:58,087 - INFO - Raw data file for lotto not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv. Assuming clean start.
+2025-07-14 14:20:58,088 - INFO - Updating LOTTO data. Starting from year 2000 with last known date N/A
+2025-07-14 14:20:58,088 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2000 for lotto (Year: 2000)
+2025-07-14 14:20:58,766 - INFO - Scraped 43 new/recent draws for lotto 2000
+2025-07-14 14:21:00,768 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2001 for lotto (Year: 2001)
+2025-07-14 14:21:01,440 - INFO - Scraped 65 new/recent draws for lotto 2001
+2025-07-14 14:21:03,440 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2002 for lotto (Year: 2002)
+2025-07-14 14:21:04,152 - INFO - Scraped 103 new/recent draws for lotto 2002
+2025-07-14 14:21:06,153 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2003 for lotto (Year: 2003)
+2025-07-14 14:21:07,025 - INFO - Scraped 105 new/recent draws for lotto 2003
+2025-07-14 14:21:09,026 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2004 for lotto (Year: 2004)
+2025-07-14 14:21:09,786 - INFO - Scraped 105 new/recent draws for lotto 2004
+2025-07-14 14:21:11,788 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2005 for lotto (Year: 2005)
+2025-07-14 14:21:12,499 - INFO - Scraped 104 new/recent draws for lotto 2005
+2025-07-14 14:21:14,500 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2006 for lotto (Year: 2006)
+2025-07-14 14:21:15,219 - INFO - Scraped 104 new/recent draws for lotto 2006
+2025-07-14 14:21:17,220 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2007 for lotto (Year: 2007)
+2025-07-14 14:21:17,849 - INFO - Scraped 49 new/recent draws for lotto 2007
+2025-07-14 14:21:19,850 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2008 for lotto (Year: 2008)
+2025-07-14 14:21:20,893 - INFO - Scraped 105 new/recent draws for lotto 2008
+2025-07-14 14:21:22,894 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2009 for lotto (Year: 2009)
+2025-07-14 14:21:23,781 - INFO - Scraped 104 new/recent draws for lotto 2009
+2025-07-14 14:21:25,782 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2010 for lotto (Year: 2010)
+2025-07-14 14:21:26,470 - INFO - Scraped 103 new/recent draws for lotto 2010
+2025-07-14 14:21:28,473 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2011 for lotto (Year: 2011)
+2025-07-14 14:21:29,193 - INFO - Scraped 105 new/recent draws for lotto 2011
+2025-07-14 14:21:31,195 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2012 for lotto (Year: 2012)
+2025-07-14 14:21:32,154 - INFO - Scraped 104 new/recent draws for lotto 2012
+2025-07-14 14:21:34,155 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2013 for lotto (Year: 2013)
+2025-07-14 14:21:34,852 - INFO - Scraped 103 new/recent draws for lotto 2013
+2025-07-14 14:21:36,853 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2014 for lotto (Year: 2014)
+2025-07-14 14:21:37,590 - INFO - Scraped 105 new/recent draws for lotto 2014
+2025-07-14 14:21:39,591 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2015 for lotto (Year: 2015)
+2025-07-14 14:21:40,328 - INFO - Scraped 104 new/recent draws for lotto 2015
+2025-07-14 14:21:42,329 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2016 for lotto (Year: 2016)
+2025-07-14 14:21:44,057 - INFO - Scraped 105 new/recent draws for lotto 2016
+2025-07-14 14:21:46,058 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2017 for lotto (Year: 2017)
+2025-07-14 14:21:46,777 - INFO - Scraped 104 new/recent draws for lotto 2017
+2025-07-14 14:21:48,778 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2018 for lotto (Year: 2018)
+2025-07-14 14:21:50,801 - INFO - Scraped 104 new/recent draws for lotto 2018
+2025-07-14 14:21:52,802 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2019 for lotto (Year: 2019)
+2025-07-14 14:21:53,655 - INFO - Scraped 103 new/recent draws for lotto 2019
+2025-07-14 14:21:55,656 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2020 for lotto (Year: 2020)
+2025-07-14 14:21:56,963 - INFO - Scraped 105 new/recent draws for lotto 2020
+2025-07-14 14:21:58,964 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2021 for lotto (Year: 2021)
+2025-07-14 14:21:59,889 - INFO - Scraped 103 new/recent draws for lotto 2021
+2025-07-14 14:22:01,890 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2022 for lotto (Year: 2022)
+2025-07-14 14:22:02,823 - INFO - Scraped 105 new/recent draws for lotto 2022
+2025-07-14 14:22:04,824 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2023 for lotto (Year: 2023)
+2025-07-14 14:22:05,542 - INFO - Scraped 104 new/recent draws for lotto 2023
+2025-07-14 14:22:07,542 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2024 for lotto (Year: 2024)
+2025-07-14 14:22:08,347 - INFO - Scraped 103 new/recent draws for lotto 2024
+2025-07-14 14:22:10,348 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 14:22:10,985 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 14:22:12,994 - INFO - Combined lotto data. New draws added: 2503. Total unique draws: 2503
+2025-07-14 14:22:13,005 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 14:22:14,006 - INFO - Processing POWERBALL...
+2025-07-14 14:22:14,007 - INFO - Raw data file for powerball not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv. Assuming clean start.
+2025-07-14 14:22:14,007 - INFO - Updating POWERBALL data. Starting from year 2009 with last known date N/A
+2025-07-14 14:22:14,007 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2009 for powerball (Year: 2009)
+2025-07-14 14:22:14,604 - INFO - Scraped 19 new/recent draws for powerball 2009
+2025-07-14 14:22:16,605 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2010 for powerball (Year: 2010)
+2025-07-14 14:22:17,626 - INFO - Scraped 104 new/recent draws for powerball 2010
+2025-07-14 14:22:19,627 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2011 for powerball (Year: 2011)
+2025-07-14 14:22:20,540 - INFO - Scraped 103 new/recent draws for powerball 2011
+2025-07-14 14:22:22,540 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2012 for powerball (Year: 2012)
+2025-07-14 14:22:25,077 - INFO - Scraped 102 new/recent draws for powerball 2012
+2025-07-14 14:22:27,079 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2013 for powerball (Year: 2013)
+2025-07-14 14:22:27,814 - INFO - Scraped 104 new/recent draws for powerball 2013
+2025-07-14 14:22:29,815 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2014 for powerball (Year: 2014)
+2025-07-14 14:22:30,573 - INFO - Scraped 103 new/recent draws for powerball 2014
+2025-07-14 14:22:32,575 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2015 for powerball (Year: 2015)
+2025-07-14 14:22:33,585 - INFO - Scraped 102 new/recent draws for powerball 2015
+2025-07-14 14:22:35,586 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2016 for powerball (Year: 2016)
+2025-07-14 14:22:36,965 - INFO - Scraped 105 new/recent draws for powerball 2016
+2025-07-14 14:22:38,966 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2017 for powerball (Year: 2017)
+2025-07-14 14:22:39,659 - INFO - Scraped 104 new/recent draws for powerball 2017
+2025-07-14 14:22:41,660 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2018 for powerball (Year: 2018)
+2025-07-14 14:22:42,784 - INFO - Scraped 104 new/recent draws for powerball 2018
+2025-07-14 14:22:44,785 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2019 for powerball (Year: 2019)
+2025-07-14 14:22:45,510 - INFO - Scraped 105 new/recent draws for powerball 2019
+2025-07-14 14:22:47,511 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2020 for powerball (Year: 2020)
+2025-07-14 14:22:48,838 - INFO - Scraped 103 new/recent draws for powerball 2020
+2025-07-14 14:22:50,839 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2021 for powerball (Year: 2021)
+2025-07-14 14:22:51,582 - INFO - Scraped 105 new/recent draws for powerball 2021
+2025-07-14 14:22:53,583 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2022 for powerball (Year: 2022)
+2025-07-14 14:22:55,063 - INFO - Scraped 104 new/recent draws for powerball 2022
+2025-07-14 14:22:57,064 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2023 for powerball (Year: 2023)
+2025-07-14 14:22:57,782 - INFO - Scraped 104 new/recent draws for powerball 2023
+2025-07-14 14:22:59,783 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2024 for powerball (Year: 2024)
+2025-07-14 14:23:00,497 - INFO - Scraped 105 new/recent draws for powerball 2024
+2025-07-14 14:23:02,497 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 14:23:03,162 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 14:23:05,171 - INFO - Combined powerball data. New draws added: 1631. Total unique draws: 1631
+2025-07-14 14:23:05,181 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 14:23:06,201 - INFO - Incremental scraping completed by callable function.
+2025-07-14 14:23:06,206 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 14:23:06,207 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 14:23:06,207 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 14:23:06,724 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 14:23:06,766 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:23:06,766 - INFO - Cleaning data for LOTTO...
+2025-07-14 14:23:06,767 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 14:23:06,903 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 14:23:06,912 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:23:06,913 - INFO - Cleaning data for POWERBALL...
+2025-07-14 14:23:06,913 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 14:23:07,181 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 14:23:07,189 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 14:23:07,189 - INFO - Data cleaning completed by callable function.
+2025-07-14 14:23:42,190 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 14:23:42,190 - INFO - Processing DAILY_LOTTO...
+2025-07-14 14:23:42,207 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 14:23:42,207 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 14:23:42,208 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 14:23:43,023 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 14:23:45,086 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2506
+2025-07-14 14:23:45,095 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 14:23:46,096 - INFO - Processing LOTTO...
+2025-07-14 14:23:46,123 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 14:23:46,123 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 14:23:46,123 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 14:23:46,779 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 14:23:48,797 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2559
+2025-07-14 14:23:48,806 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 14:23:49,807 - INFO - Processing POWERBALL...
+2025-07-14 14:23:49,816 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 14:23:49,816 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 14:23:49,816 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 14:23:50,469 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 14:23:52,511 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1686
+2025-07-14 14:23:52,520 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 14:23:53,521 - INFO - Incremental scraping completed by callable function.
+2025-07-14 14:23:53,523 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 14:23:53,523 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 14:23:53,524 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 14:23:53,649 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 14:23:53,656 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:23:53,656 - INFO - Cleaning data for LOTTO...
+2025-07-14 14:23:53,656 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 14:23:53,757 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 14:23:53,763 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:23:53,763 - INFO - Cleaning data for POWERBALL...
+2025-07-14 14:23:53,763 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 14:23:53,862 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 14:23:53,870 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 14:23:53,871 - INFO - Data cleaning completed by callable function.
+2025-07-14 14:27:13,230 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 14:27:13,230 - INFO - Processing DAILY_LOTTO...
+2025-07-14 14:27:13,230 - INFO - Raw data file for daily_lotto not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv. Assuming clean start.
+2025-07-14 14:27:13,230 - INFO - Updating DAILY_LOTTO data. Starting from year 2019 with last known date N/A
+2025-07-14 14:27:13,230 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2019 for daily_lotto (Year: 2019)
+2025-07-14 14:27:14,241 - INFO - Scraped 296 new/recent draws for daily_lotto 2019
+2025-07-14 14:27:16,242 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2020 for daily_lotto (Year: 2020)
+2025-07-14 14:27:17,354 - INFO - Scraped 365 new/recent draws for daily_lotto 2020
+2025-07-14 14:27:19,355 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2021 for daily_lotto (Year: 2021)
+2025-07-14 14:27:20,657 - INFO - Scraped 364 new/recent draws for daily_lotto 2021
+2025-07-14 14:27:22,658 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2022 for daily_lotto (Year: 2022)
+2025-07-14 14:27:23,941 - INFO - Scraped 364 new/recent draws for daily_lotto 2022
+2025-07-14 14:27:25,942 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2023 for daily_lotto (Year: 2023)
+2025-07-14 14:27:27,062 - INFO - Scraped 364 new/recent draws for daily_lotto 2023
+2025-07-14 14:27:29,063 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2024 for daily_lotto (Year: 2024)
+2025-07-14 14:27:30,137 - INFO - Scraped 365 new/recent draws for daily_lotto 2024
+2025-07-14 14:27:32,138 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 14:27:32,907 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 14:27:34,940 - INFO - Combined daily_lotto data. New draws added: 2312. Total unique draws: 2312
+2025-07-14 14:27:34,957 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 14:27:35,958 - INFO - Processing LOTTO...
+2025-07-14 14:27:35,959 - INFO - Raw data file for lotto not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv. Assuming clean start.
+2025-07-14 14:27:35,959 - INFO - Updating LOTTO data. Starting from year 2000 with last known date N/A
+2025-07-14 14:27:35,959 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2000 for lotto (Year: 2000)
+2025-07-14 14:27:36,622 - INFO - Scraped 43 new/recent draws for lotto 2000
+2025-07-14 14:27:38,622 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2001 for lotto (Year: 2001)
+2025-07-14 14:27:39,643 - INFO - Scraped 65 new/recent draws for lotto 2001
+2025-07-14 14:27:41,644 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2002 for lotto (Year: 2002)
+2025-07-14 14:27:42,350 - INFO - Scraped 103 new/recent draws for lotto 2002
+2025-07-14 14:27:44,351 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2003 for lotto (Year: 2003)
+2025-07-14 14:27:45,187 - INFO - Scraped 105 new/recent draws for lotto 2003
+2025-07-14 14:27:47,188 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2004 for lotto (Year: 2004)
+2025-07-14 14:27:47,880 - INFO - Scraped 105 new/recent draws for lotto 2004
+2025-07-14 14:27:49,881 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2005 for lotto (Year: 2005)
+2025-07-14 14:27:50,666 - INFO - Scraped 104 new/recent draws for lotto 2005
+2025-07-14 14:27:52,667 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2006 for lotto (Year: 2006)
+2025-07-14 14:27:53,429 - INFO - Scraped 104 new/recent draws for lotto 2006
+2025-07-14 14:27:55,430 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2007 for lotto (Year: 2007)
+2025-07-14 14:27:56,117 - INFO - Scraped 49 new/recent draws for lotto 2007
+2025-07-14 14:27:58,118 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2008 for lotto (Year: 2008)
+2025-07-14 14:27:58,862 - INFO - Scraped 105 new/recent draws for lotto 2008
+2025-07-14 14:28:00,863 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2009 for lotto (Year: 2009)
+2025-07-14 14:28:01,589 - INFO - Scraped 104 new/recent draws for lotto 2009
+2025-07-14 14:28:03,590 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2010 for lotto (Year: 2010)
+2025-07-14 14:28:04,323 - INFO - Scraped 103 new/recent draws for lotto 2010
+2025-07-14 14:28:06,324 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2011 for lotto (Year: 2011)
+2025-07-14 14:28:07,044 - INFO - Scraped 105 new/recent draws for lotto 2011
+2025-07-14 14:28:09,045 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2012 for lotto (Year: 2012)
+2025-07-14 14:28:09,782 - INFO - Scraped 104 new/recent draws for lotto 2012
+2025-07-14 14:28:11,784 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2013 for lotto (Year: 2013)
+2025-07-14 14:28:12,509 - INFO - Scraped 103 new/recent draws for lotto 2013
+2025-07-14 14:28:14,510 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2014 for lotto (Year: 2014)
+2025-07-14 14:28:15,213 - INFO - Scraped 105 new/recent draws for lotto 2014
+2025-07-14 14:28:17,214 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2015 for lotto (Year: 2015)
+2025-07-14 14:28:17,929 - INFO - Scraped 104 new/recent draws for lotto 2015
+2025-07-14 14:28:19,930 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2016 for lotto (Year: 2016)
+2025-07-14 14:28:20,939 - INFO - Scraped 105 new/recent draws for lotto 2016
+2025-07-14 14:28:22,940 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2017 for lotto (Year: 2017)
+2025-07-14 14:28:23,655 - INFO - Scraped 104 new/recent draws for lotto 2017
+2025-07-14 14:28:25,656 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2018 for lotto (Year: 2018)
+2025-07-14 14:28:26,373 - INFO - Scraped 104 new/recent draws for lotto 2018
+2025-07-14 14:28:28,375 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2019 for lotto (Year: 2019)
+2025-07-14 14:28:29,083 - INFO - Scraped 103 new/recent draws for lotto 2019
+2025-07-14 14:28:31,083 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2020 for lotto (Year: 2020)
+2025-07-14 14:28:31,775 - INFO - Scraped 105 new/recent draws for lotto 2020
+2025-07-14 14:28:33,776 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2021 for lotto (Year: 2021)
+2025-07-14 14:28:34,502 - INFO - Scraped 103 new/recent draws for lotto 2021
+2025-07-14 14:28:36,503 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2022 for lotto (Year: 2022)
+2025-07-14 14:28:37,227 - INFO - Scraped 105 new/recent draws for lotto 2022
+2025-07-14 14:28:39,228 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2023 for lotto (Year: 2023)
+2025-07-14 14:28:40,075 - INFO - Scraped 104 new/recent draws for lotto 2023
+2025-07-14 14:28:42,076 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2024 for lotto (Year: 2024)
+2025-07-14 14:28:42,785 - INFO - Scraped 103 new/recent draws for lotto 2024
+2025-07-14 14:28:44,785 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 14:28:45,468 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 14:28:47,488 - INFO - Combined lotto data. New draws added: 2503. Total unique draws: 2503
+2025-07-14 14:28:47,502 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 14:28:48,504 - INFO - Processing POWERBALL...
+2025-07-14 14:28:48,504 - INFO - Raw data file for powerball not found at C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv. Assuming clean start.
+2025-07-14 14:28:48,504 - INFO - Updating POWERBALL data. Starting from year 2009 with last known date N/A
+2025-07-14 14:28:48,504 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2009 for powerball (Year: 2009)
+2025-07-14 14:28:49,123 - INFO - Scraped 19 new/recent draws for powerball 2009
+2025-07-14 14:28:51,124 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2010 for powerball (Year: 2010)
+2025-07-14 14:28:51,815 - INFO - Scraped 104 new/recent draws for powerball 2010
+2025-07-14 14:28:53,816 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2011 for powerball (Year: 2011)
+2025-07-14 14:28:54,928 - INFO - Scraped 103 new/recent draws for powerball 2011
+2025-07-14 14:28:56,929 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2012 for powerball (Year: 2012)
+2025-07-14 14:28:57,638 - INFO - Scraped 102 new/recent draws for powerball 2012
+2025-07-14 14:28:59,639 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2013 for powerball (Year: 2013)
+2025-07-14 14:29:00,369 - INFO - Scraped 104 new/recent draws for powerball 2013
+2025-07-14 14:29:02,370 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2014 for powerball (Year: 2014)
+2025-07-14 14:29:03,066 - INFO - Scraped 103 new/recent draws for powerball 2014
+2025-07-14 14:29:05,067 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2015 for powerball (Year: 2015)
+2025-07-14 14:29:05,753 - INFO - Scraped 102 new/recent draws for powerball 2015
+2025-07-14 14:29:07,753 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2016 for powerball (Year: 2016)
+2025-07-14 14:29:08,498 - INFO - Scraped 105 new/recent draws for powerball 2016
+2025-07-14 14:29:10,499 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2017 for powerball (Year: 2017)
+2025-07-14 14:29:11,200 - INFO - Scraped 104 new/recent draws for powerball 2017
+2025-07-14 14:29:13,200 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2018 for powerball (Year: 2018)
+2025-07-14 14:29:13,914 - INFO - Scraped 104 new/recent draws for powerball 2018
+2025-07-14 14:29:15,915 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2019 for powerball (Year: 2019)
+2025-07-14 14:29:16,620 - INFO - Scraped 105 new/recent draws for powerball 2019
+2025-07-14 14:29:18,621 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2020 for powerball (Year: 2020)
+2025-07-14 14:29:19,286 - INFO - Scraped 103 new/recent draws for powerball 2020
+2025-07-14 14:29:21,287 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2021 for powerball (Year: 2021)
+2025-07-14 14:29:22,019 - INFO - Scraped 105 new/recent draws for powerball 2021
+2025-07-14 14:29:24,020 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2022 for powerball (Year: 2022)
+2025-07-14 14:29:24,740 - INFO - Scraped 104 new/recent draws for powerball 2022
+2025-07-14 14:29:26,741 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2023 for powerball (Year: 2023)
+2025-07-14 14:29:27,481 - INFO - Scraped 104 new/recent draws for powerball 2023
+2025-07-14 14:29:29,482 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2024 for powerball (Year: 2024)
+2025-07-14 14:29:30,229 - INFO - Scraped 105 new/recent draws for powerball 2024
+2025-07-14 14:29:32,230 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 14:29:32,895 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 14:29:34,916 - INFO - Combined powerball data. New draws added: 1631. Total unique draws: 1631
+2025-07-14 14:29:34,933 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 14:29:35,934 - INFO - Incremental scraping completed by callable function.
+2025-07-14 14:29:35,935 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 14:29:35,935 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 14:29:35,935 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 14:29:36,026 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 14:29:36,049 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:29:36,049 - INFO - Cleaning data for LOTTO...
+2025-07-14 14:29:36,049 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 14:29:36,154 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 14:29:36,161 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:29:36,161 - INFO - Cleaning data for POWERBALL...
+2025-07-14 14:29:36,162 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 14:29:36,321 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 14:29:36,327 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 14:29:36,327 - INFO - Data cleaning completed by callable function.
+2025-07-14 14:30:30,567 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 14:30:30,567 - INFO - Processing DAILY_LOTTO...
+2025-07-14 14:30:30,589 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 14:30:30,589 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 14:30:30,589 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 14:30:31,427 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 14:30:33,473 - INFO - Removed 194 duplicate rows for daily_lotto.
+2025-07-14 14:30:33,473 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2312
+2025-07-14 14:30:33,482 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 14:30:34,483 - INFO - Processing LOTTO...
+2025-07-14 14:30:34,498 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 14:30:34,498 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 14:30:34,498 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 14:30:35,132 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 14:30:37,178 - INFO - Removed 56 duplicate rows for lotto.
+2025-07-14 14:30:37,178 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2503
+2025-07-14 14:30:37,191 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 14:30:38,192 - INFO - Processing POWERBALL...
+2025-07-14 14:30:38,218 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 14:30:38,218 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 14:30:38,219 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 14:30:38,863 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 14:30:40,911 - INFO - Removed 55 duplicate rows for powerball.
+2025-07-14 14:30:40,912 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1631
+2025-07-14 14:30:40,923 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 14:30:41,924 - INFO - Incremental scraping completed by callable function.
+2025-07-14 14:30:41,925 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 14:30:41,926 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 14:30:41,926 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 14:30:42,031 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 14:30:42,037 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:30:42,038 - INFO - Cleaning data for LOTTO...
+2025-07-14 14:30:42,038 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 14:30:42,121 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 14:30:42,128 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:30:42,128 - INFO - Cleaning data for POWERBALL...
+2025-07-14 14:30:42,128 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 14:30:42,195 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 14:30:42,201 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 14:30:42,201 - INFO - Data cleaning completed by callable function.
+2025-07-14 14:31:01,013 - INFO - Successfully loaded and preprocessed 2312 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:31:14,144 - INFO - Trained rf model for Daily Lotto. Score: 57.55%
+2025-07-14 14:32:42,932 - INFO - Trained gb model for Daily Lotto. Score: 99.31%
+2025-07-14 14:35:22,341 - ERROR - Models not trained for Daily Lotto.
+2025-07-14 14:45:24,015 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:45:30,071 - INFO - Successfully loaded and preprocessed 2312 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:45:40,393 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-14 14:45:40,393 - INFO - Processing DAILY_LOTTO...
+2025-07-14 14:45:40,432 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-14 14:45:40,432 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-14 14:45:40,432 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-14 14:45:41,205 - INFO - Scraped 194 new/recent draws for daily_lotto 2025
+2025-07-14 14:45:43,254 - INFO - Removed 194 duplicate rows for daily_lotto.
+2025-07-14 14:45:43,254 - INFO - Combined daily_lotto data. New draws added: 194. Total unique draws: 2312
+2025-07-14 14:45:43,268 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-14 14:45:44,268 - INFO - Processing LOTTO...
+2025-07-14 14:45:44,325 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-14 14:45:44,325 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-14 14:45:44,325 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-14 14:45:44,955 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-14 14:45:46,974 - INFO - Removed 56 duplicate rows for lotto.
+2025-07-14 14:45:46,974 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2503
+2025-07-14 14:45:46,985 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-14 14:45:47,986 - INFO - Processing POWERBALL...
+2025-07-14 14:45:48,038 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-14 14:45:48,038 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-14 14:45:48,038 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-14 14:45:48,755 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-14 14:45:50,800 - INFO - Removed 55 duplicate rows for powerball.
+2025-07-14 14:45:50,800 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1631
+2025-07-14 14:45:50,810 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-14 14:45:51,811 - INFO - Incremental scraping completed by callable function.
+2025-07-14 14:45:51,813 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-14 14:45:51,813 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-14 14:45:51,813 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-14 14:45:51,916 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-14 14:45:51,922 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:45:51,923 - INFO - Cleaning data for LOTTO...
+2025-07-14 14:45:51,923 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-14 14:45:52,012 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-14 14:45:52,019 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:45:52,019 - INFO - Cleaning data for POWERBALL...
+2025-07-14 14:45:52,020 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-14 14:45:52,087 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-14 14:45:52,093 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 14:45:52,093 - INFO - Data cleaning completed by callable function.
+2025-07-14 14:45:52,222 - INFO - Successfully loaded and preprocessed 2312 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:47:35,936 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 14:47:57,692 - INFO - train_model: Trained rf model for Lotto. Score: 52.56%
+2025-07-14 14:50:20,162 - INFO - train_model: Trained gb model for Lotto. Score: 99.80%
+2025-07-14 14:52:33,629 - INFO - train_model: Trained rf model for Lotto. Score: 52.56%
+2025-07-14 14:53:44,141 - INFO - Successfully loaded and preprocessed 2312 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 14:53:49,692 - INFO - train_model: Trained rf model for Lotto. Score: 52.56%
+2025-07-14 14:55:00,505 - INFO - train_model: Trained rf model for Daily Lotto. Score: 62.09%
+2025-07-14 14:56:56,944 - INFO - train_model: Trained gb model for Lotto. Score: 99.80%
+2025-07-14 14:57:41,244 - INFO - train_model: Trained gb model for Lotto. Score: 99.80%
+2025-07-14 14:58:00,334 - INFO - train_model: Trained gb model for Daily Lotto. Score: 99.31%
+2025-07-14 14:59:05,935 - INFO - train_model: Trained rf model for Daily Lotto. Score: 62.09%
+2025-07-14 15:01:05,558 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 15:01:59,935 - INFO - train_model: Trained rf model for Lotto. Score: 52.56%
+2025-07-14 15:04:10,014 - INFO - train_model: Trained gb model for Lotto. Score: 99.80%
+2025-07-14 15:06:31,412 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 15:06:58,845 - INFO - train_model: Trained rf model for Lotto. Score: 52.56%
+2025-07-14 15:09:28,773 - INFO - train_model: Trained gb model for Lotto. Score: 99.80%
+2025-07-14 15:11:41,912 - INFO - train_model: Trained rf model for Lotto. Score: 52.56%
+2025-07-14 15:33:00,686 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 15:42:01,906 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 15:42:18,502 - INFO - No cached model found for Lotto with hash 0f533944.
+2025-07-14 15:42:25,161 - INFO - Successfully loaded and preprocessed 2312 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 15:42:25,206 - INFO - No cached model found for Daily Lotto with hash 3670222c.
+2025-07-14 15:42:37,621 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-14 15:42:44,897 - INFO - Trained rf model for Daily Lotto. Train: 79.30%, Test: 0.00%
+2025-07-14 15:56:30,771 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-14 15:56:30,771 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-14 15:57:04,816 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-14 15:57:04,816 - INFO - Model for Daily Lotto with hash 3670222c cached successfully.
+2025-07-14 16:03:05,173 - INFO - Trained rf model for Daily Lotto. Train: 79.30%, Test: 0.00%
+2025-07-14 16:03:07,449 - INFO - Trained rf model for Daily Lotto. Train: 79.30%, Test: 0.00%
+2025-07-14 16:09:14,627 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-14 16:09:14,628 - INFO - Model for Daily Lotto with hash 3670222c cached successfully.
+2025-07-14 16:11:32,455 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-14 16:11:32,456 - INFO - Model for Daily Lotto with hash 3670222c cached successfully.
+2025-07-14 16:18:47,768 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-14 16:18:54,900 - INFO - Successfully loaded and preprocessed 2312 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-14 16:19:22,722 - INFO - No cached model found for Lotto with hash 0f533944.
+2025-07-14 16:19:26,465 - INFO - Successfully loaded and preprocessed 1631 rows for Powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-14 16:19:26,478 - INFO - No cached model found for Powerball with hash d08077ea.
+2025-07-14 16:19:40,127 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-14 16:19:40,594 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 08:38:09,599 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-15 08:38:48,576 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-15 08:38:48,576 - INFO - Processing DAILY_LOTTO...
+2025-07-15 08:38:48,623 - INFO - Last draw date for daily_lotto in raw data: 2025-07-13
+2025-07-15 08:38:48,623 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-13
+2025-07-15 08:38:48,623 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-15 08:38:49,443 - INFO - Scraped 195 new/recent draws for daily_lotto 2025
+2025-07-15 08:38:51,530 - INFO - Removed 194 duplicate rows for daily_lotto.
+2025-07-15 08:38:51,530 - INFO - Combined daily_lotto data. New draws added: 195. Total unique draws: 2313
+2025-07-15 08:38:51,550 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-15 08:38:52,550 - INFO - Processing LOTTO...
+2025-07-15 08:38:52,580 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-15 08:38:52,580 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-15 08:38:52,580 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-15 08:38:53,232 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-15 08:38:55,256 - INFO - Removed 56 duplicate rows for lotto.
+2025-07-15 08:38:55,256 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2503
+2025-07-15 08:38:55,266 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-15 08:38:56,267 - INFO - Processing POWERBALL...
+2025-07-15 08:38:56,302 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-15 08:38:56,302 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-15 08:38:56,302 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-15 08:38:56,981 - INFO - Scraped 55 new/recent draws for powerball 2025
+2025-07-15 08:38:59,035 - INFO - Removed 55 duplicate rows for powerball.
+2025-07-15 08:38:59,035 - INFO - Combined powerball data. New draws added: 55. Total unique draws: 1631
+2025-07-15 08:38:59,052 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-15 08:39:00,052 - INFO - Incremental scraping completed by callable function.
+2025-07-15 08:39:00,055 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-15 08:39:00,056 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-15 08:39:00,057 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-15 08:39:00,199 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-15 08:39:00,231 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-15 08:39:00,231 - INFO - Cleaning data for LOTTO...
+2025-07-15 08:39:00,231 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-15 08:39:00,327 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-15 08:39:00,333 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-15 08:39:00,333 - INFO - Cleaning data for POWERBALL...
+2025-07-15 08:39:00,333 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-15 08:39:00,398 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-15 08:39:00,402 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-15 08:39:00,403 - INFO - Data cleaning completed by callable function.
+2025-07-15 08:39:00,528 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-15 08:40:21,329 - INFO - No cached model found for Lotto with hash 0f533944.
+2025-07-15 08:40:25,070 - INFO - Successfully loaded and preprocessed 1631 rows for Powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-15 08:40:25,086 - INFO - No cached model found for Powerball with hash d08077ea.
+2025-07-15 08:40:35,225 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-15 08:40:37,157 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 08:51:57,256 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-15 08:51:57,256 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-15 08:52:57,023 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 08:52:57,023 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 08:55:49,372 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 09:00:18,443 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 09:00:18,444 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 09:15:28,605 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-15 09:15:44,745 - INFO - No cached model found for Lotto with hash 0f533944.
+2025-07-15 09:16:00,489 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-15 09:17:44,260 - INFO - Successfully loaded and preprocessed 1631 rows for Powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-15 09:17:44,298 - INFO - No cached model found for Powerball with hash d08077ea.
+2025-07-15 09:17:57,045 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 09:26:37,453 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-15 09:26:37,453 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-15 09:28:21,193 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 09:28:21,193 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 09:29:42,028 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 09:29:43,871 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 09:37:10,874 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 09:37:10,874 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 09:39:14,203 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 09:39:14,204 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 09:50:02,123 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 09:54:26,471 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 09:54:26,471 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 09:55:25,795 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 09:55:58,783 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 10:01:26,315 - INFO - Successfully loaded and preprocessed 2313 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-15 10:02:10,640 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-15 10:10:25,408 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 10:10:25,409 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 10:10:30,082 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 10:10:30,083 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 10:10:31,190 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 10:18:07,466 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-15 10:18:07,466 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-15 10:20:18,826 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 10:20:18,826 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-15 10:25:08,786 - INFO - Trained rf model for Powerball. Train: 88.69%, Test: 0.00%
+2025-07-15 10:30:07,753 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-15 10:30:07,753 - INFO - Model for Powerball with hash d08077ea cached successfully.
+2025-07-16 18:29:00,072 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-16 18:29:40,292 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-16 18:29:40,292 - INFO - Processing DAILY_LOTTO...
+2025-07-16 18:29:40,340 - INFO - Last draw date for daily_lotto in raw data: 2025-07-14
+2025-07-16 18:29:40,340 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-14
+2025-07-16 18:29:40,340 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-16 18:29:41,306 - INFO - Scraped 196 new/recent draws for daily_lotto 2025
+2025-07-16 18:29:43,350 - INFO - Removed 195 duplicate rows for daily_lotto.
+2025-07-16 18:29:43,350 - INFO - Combined daily_lotto data. New draws added: 196. Total unique draws: 2314
+2025-07-16 18:29:43,363 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-16 18:29:44,364 - INFO - Processing LOTTO...
+2025-07-16 18:29:44,464 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-16 18:29:44,465 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-16 18:29:44,465 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-16 18:29:45,243 - INFO - Scraped 56 new/recent draws for lotto 2025
+2025-07-16 18:29:47,933 - INFO - Removed 56 duplicate rows for lotto.
+2025-07-16 18:29:47,933 - INFO - Combined lotto data. New draws added: 56. Total unique draws: 2503
+2025-07-16 18:29:48,031 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-16 18:29:49,403 - INFO - Processing POWERBALL...
+2025-07-16 18:29:50,731 - INFO - Last draw date for powerball in raw data: 2025-07-11
+2025-07-16 18:29:50,731 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-11
+2025-07-16 18:29:50,731 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-16 18:29:53,994 - INFO - Scraped 56 new/recent draws for powerball 2025
+2025-07-16 18:29:56,191 - INFO - Removed 55 duplicate rows for powerball.
+2025-07-16 18:29:56,191 - INFO - Combined powerball data. New draws added: 56. Total unique draws: 1632
+2025-07-16 18:29:56,246 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-16 18:29:57,246 - INFO - Incremental scraping completed by callable function.
+2025-07-16 18:29:57,247 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-16 18:29:57,247 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-16 18:29:57,247 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-16 18:29:57,387 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-16 18:29:57,399 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-16 18:29:57,400 - INFO - Cleaning data for LOTTO...
+2025-07-16 18:29:57,400 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-16 18:29:57,547 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-16 18:29:57,555 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-16 18:29:57,556 - INFO - Cleaning data for POWERBALL...
+2025-07-16 18:29:57,556 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-16 18:29:57,644 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-16 18:29:57,650 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-16 18:29:57,650 - INFO - Data cleaning completed by callable function.
+2025-07-16 18:29:57,843 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-16 18:30:54,792 - INFO - No cached model found for Lotto with hash 0f533944.
+2025-07-16 18:31:13,104 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-16 18:41:42,808 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-16 18:41:42,808 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-16 18:42:23,316 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-16 18:42:49,801 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-16 18:56:06,343 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-16 19:07:26,731 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-16 19:07:26,731 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-16 19:08:31,178 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-16 19:08:31,178 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-16 19:14:32,898 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-16 19:14:32,898 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-16 19:15:34,299 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-16 19:15:35,350 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-16 19:31:20,296 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-16 19:31:20,296 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-16 19:37:35,085 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-16 19:37:35,086 - INFO - Model for Lotto with hash 0f533944 cached successfully.
+2025-07-16 19:39:07,735 - INFO - Successfully loaded and preprocessed 2314 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-16 19:40:01,690 - INFO - No cached model found for Daily Lotto with hash 9d9f7526.
+2025-07-16 19:40:11,709 - INFO - Trained rf model for Lotto. Train: 72.02%, Test: 0.00%
+2025-07-16 19:40:11,918 - INFO - Trained rf model for Daily Lotto. Train: 78.67%, Test: 0.00%
+2025-07-18 17:34:15,906 - INFO - Successfully loaded and preprocessed 2503 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-18 17:34:18,727 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-18 17:34:18,727 - INFO - Processing DAILY_LOTTO...
+2025-07-18 17:34:18,796 - INFO - Last draw date for daily_lotto in raw data: 2025-07-15
+2025-07-18 17:34:18,797 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-15
+2025-07-18 17:34:18,797 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-18 17:34:20,168 - INFO - Scraped 198 new/recent draws for daily_lotto 2025
+2025-07-18 17:34:22,204 - INFO - Removed 196 duplicate rows for daily_lotto.
+2025-07-18 17:34:22,204 - INFO - Combined daily_lotto data. New draws added: 198. Total unique draws: 2316
+2025-07-18 17:34:22,217 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-18 17:34:23,217 - INFO - Processing LOTTO...
+2025-07-18 17:34:23,248 - INFO - Last draw date for lotto in raw data: 2025-07-12
+2025-07-18 17:34:23,248 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-12
+2025-07-18 17:34:23,248 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-18 17:34:23,970 - INFO - Scraped 57 new/recent draws for lotto 2025
+2025-07-18 17:34:25,995 - INFO - Removed 56 duplicate rows for lotto.
+2025-07-18 17:34:25,996 - INFO - Combined lotto data. New draws added: 57. Total unique draws: 2504
+2025-07-18 17:34:26,013 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-18 17:34:27,614 - INFO - Processing POWERBALL...
+2025-07-18 17:34:27,998 - INFO - Last draw date for powerball in raw data: 2025-07-15
+2025-07-18 17:34:28,000 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-15
+2025-07-18 17:34:28,000 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-18 17:34:29,246 - INFO - Scraped 56 new/recent draws for powerball 2025
+2025-07-18 17:34:31,359 - INFO - Removed 56 duplicate rows for powerball.
+2025-07-18 17:34:31,360 - INFO - Combined powerball data. New draws added: 56. Total unique draws: 1632
+2025-07-18 17:34:31,591 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-18 17:34:32,898 - INFO - Incremental scraping completed by callable function.
+2025-07-18 17:34:32,944 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-18 17:34:32,946 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-18 17:34:32,950 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-18 17:34:33,742 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-18 17:34:34,213 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-18 17:34:34,214 - INFO - Cleaning data for LOTTO...
+2025-07-18 17:34:34,215 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-18 17:34:34,758 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-18 17:34:34,784 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-18 17:34:34,801 - INFO - Cleaning data for POWERBALL...
+2025-07-18 17:34:34,801 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-18 17:34:35,196 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-18 17:34:35,362 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-18 17:34:35,363 - INFO - Data cleaning completed by callable function.
+2025-07-18 17:34:38,012 - INFO - Successfully loaded and preprocessed 2504 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-18 17:35:17,295 - INFO - Successfully loaded and preprocessed 1632 rows for Powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-18 17:35:35,774 - INFO - No cached model found for Lotto with hash 82f6b707.
+2025-07-18 17:35:39,519 - INFO - No cached model found for Powerball with hash a9c9eb0b.
+2025-07-18 17:35:56,601 - INFO - Trained rf model for Lotto. Train: 69.98%, Test: 0.00%
+2025-07-18 17:35:57,044 - INFO - Trained rf model for Powerball. Train: 87.16%, Test: 0.00%
+2025-07-18 17:49:42,967 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-18 17:49:42,967 - INFO - Model for Lotto with hash 82f6b707 cached successfully.
+2025-07-18 17:50:52,629 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-18 17:50:52,629 - INFO - Model for Powerball with hash a9c9eb0b cached successfully.
+2025-07-18 18:34:11,528 - INFO - Trained rf model for Powerball. Train: 87.16%, Test: 0.00%
+2025-07-18 18:34:11,860 - INFO - Trained rf model for Powerball. Train: 87.16%, Test: 0.00%
+2025-07-18 18:40:37,755 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-18 18:40:37,755 - INFO - Model for Powerball with hash a9c9eb0b cached successfully.
+2025-07-18 18:42:49,052 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-18 18:42:49,052 - INFO - Model for Powerball with hash a9c9eb0b cached successfully.
+2025-07-18 18:46:44,756 - INFO - Successfully loaded and preprocessed 2316 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-18 18:47:37,742 - INFO - Trained rf model for Lotto. Train: 69.98%, Test: 0.00%
+2025-07-18 18:47:38,220 - INFO - Trained rf model for Powerball. Train: 87.16%, Test: 0.00%
+2025-07-18 19:00:03,044 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-18 19:00:03,045 - INFO - Model for Lotto with hash 82f6b707 cached successfully.
+2025-07-18 19:01:02,574 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-18 19:01:02,574 - INFO - Model for Powerball with hash a9c9eb0b cached successfully.
+2025-07-18 19:21:31,653 - INFO - Trained rf model for Powerball. Train: 87.16%, Test: 0.00%
+2025-07-18 19:21:32,360 - INFO - Trained rf model for Powerball. Train: 87.16%, Test: 0.00%
+2025-07-18 19:21:32,989 - INFO - Trained rf model for Powerball. Train: 87.16%, Test: 0.00%
+2025-07-18 19:28:22,572 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-18 19:28:22,572 - INFO - Model for Powerball with hash a9c9eb0b cached successfully.
+2025-07-18 19:32:16,508 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-18 19:32:16,508 - INFO - Model for Powerball with hash a9c9eb0b cached successfully.
+2025-07-18 19:33:03,700 - INFO - Trained gb model for Powerball. Train: 100.00%, Test: 0.00%
+2025-07-18 19:33:03,700 - INFO - Model for Powerball with hash a9c9eb0b cached successfully.
+2025-07-20 16:12:17,126 - INFO - Successfully loaded and preprocessed 2504 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-20 16:12:50,432 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-20 16:12:50,432 - INFO - Processing DAILY_LOTTO...
+2025-07-20 16:12:50,480 - INFO - Last draw date for daily_lotto in raw data: 2025-07-17
+2025-07-20 16:12:50,481 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-17
+2025-07-20 16:12:50,481 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-20 16:12:51,948 - INFO - Scraped 200 new/recent draws for daily_lotto 2025
+2025-07-20 16:12:54,004 - INFO - Removed 198 duplicate rows for daily_lotto.
+2025-07-20 16:12:54,004 - INFO - Combined daily_lotto data. New draws added: 200. Total unique draws: 2318
+2025-07-20 16:12:54,019 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-20 16:12:55,021 - INFO - Processing LOTTO...
+2025-07-20 16:12:55,093 - INFO - Last draw date for lotto in raw data: 2025-07-16
+2025-07-20 16:12:55,093 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-16
+2025-07-20 16:12:55,093 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-20 16:12:55,831 - INFO - Scraped 58 new/recent draws for lotto 2025
+2025-07-20 16:12:57,872 - INFO - Removed 57 duplicate rows for lotto.
+2025-07-20 16:12:57,872 - INFO - Combined lotto data. New draws added: 58. Total unique draws: 2505
+2025-07-20 16:12:57,892 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-20 16:12:58,893 - INFO - Processing POWERBALL...
+2025-07-20 16:12:58,919 - INFO - Last draw date for powerball in raw data: 2025-07-15
+2025-07-20 16:12:58,919 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-15
+2025-07-20 16:12:58,919 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-20 16:12:59,762 - INFO - Scraped 57 new/recent draws for powerball 2025
+2025-07-20 16:13:01,795 - INFO - Removed 56 duplicate rows for powerball.
+2025-07-20 16:13:01,795 - INFO - Combined powerball data. New draws added: 57. Total unique draws: 1633
+2025-07-20 16:13:01,807 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-20 16:13:02,808 - INFO - Incremental scraping completed by callable function.
+2025-07-20 16:13:02,809 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-20 16:13:02,809 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-20 16:13:02,809 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-20 16:13:02,908 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-20 16:13:02,919 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-20 16:13:02,920 - INFO - Cleaning data for LOTTO...
+2025-07-20 16:13:02,920 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-20 16:13:03,024 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-20 16:13:03,030 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-20 16:13:03,030 - INFO - Cleaning data for POWERBALL...
+2025-07-20 16:13:03,030 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-20 16:13:03,098 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-20 16:13:03,104 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-20 16:13:03,104 - INFO - Data cleaning completed by callable function.
+2025-07-20 16:13:03,242 - INFO - Successfully loaded and preprocessed 2505 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-20 16:19:34,944 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-20 16:19:34,944 - INFO - Processing DAILY_LOTTO...
+2025-07-20 16:19:34,963 - INFO - Last draw date for daily_lotto in raw data: 2025-07-19
+2025-07-20 16:19:34,963 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-19
+2025-07-20 16:19:34,963 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-20 16:19:35,961 - INFO - Scraped 200 new/recent draws for daily_lotto 2025
+2025-07-20 16:19:38,031 - INFO - Removed 200 duplicate rows for daily_lotto.
+2025-07-20 16:19:38,031 - INFO - Combined daily_lotto data. New draws added: 200. Total unique draws: 2318
+2025-07-20 16:19:38,044 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-20 16:19:39,045 - INFO - Processing LOTTO...
+2025-07-20 16:19:39,083 - INFO - Last draw date for lotto in raw data: 2025-07-19
+2025-07-20 16:19:39,083 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-19
+2025-07-20 16:19:39,083 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-20 16:19:39,814 - INFO - Scraped 58 new/recent draws for lotto 2025
+2025-07-20 16:19:41,880 - INFO - Removed 58 duplicate rows for lotto.
+2025-07-20 16:19:41,881 - INFO - Combined lotto data. New draws added: 58. Total unique draws: 2505
+2025-07-20 16:19:41,897 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-20 16:19:42,898 - INFO - Processing POWERBALL...
+2025-07-20 16:19:42,908 - INFO - Last draw date for powerball in raw data: 2025-07-18
+2025-07-20 16:19:42,908 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-18
+2025-07-20 16:19:42,908 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-20 16:19:43,620 - INFO - Scraped 57 new/recent draws for powerball 2025
+2025-07-20 16:19:45,666 - INFO - Removed 57 duplicate rows for powerball.
+2025-07-20 16:19:45,666 - INFO - Combined powerball data. New draws added: 57. Total unique draws: 1633
+2025-07-20 16:19:45,679 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-20 16:19:46,680 - INFO - Incremental scraping completed by callable function.
+2025-07-20 16:19:46,682 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-20 16:19:46,683 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-20 16:19:46,683 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-20 16:19:46,807 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-20 16:19:46,813 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-20 16:19:46,813 - INFO - Cleaning data for LOTTO...
+2025-07-20 16:19:46,814 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-20 16:19:46,908 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-20 16:19:46,915 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-20 16:19:46,915 - INFO - Cleaning data for POWERBALL...
+2025-07-20 16:19:46,916 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-20 16:19:46,982 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-20 16:19:46,988 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-20 16:19:46,988 - INFO - Data cleaning completed by callable function.
+2025-07-20 16:19:47,135 - INFO - Successfully loaded and preprocessed 2505 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-20 16:20:48,005 - INFO - Successfully loaded and preprocessed 1633 rows for Powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-20 16:20:53,189 - INFO - Successfully loaded and preprocessed 2318 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-20 16:21:15,203 - INFO - No cached model found for Lotto with hash 86adfdb6.
+2025-07-20 16:21:22,106 - INFO - No cached model found for Daily Lotto with hash 97e5ecdd.
+2025-07-20 16:21:31,045 - INFO - Trained rf model for Daily Lotto. Train: 81.35%, Test: 0.00%
+2025-07-20 16:21:35,401 - INFO - Trained rf model for Lotto. Train: 72.50%, Test: 0.00%
+2025-07-20 16:29:11,890 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-20 16:29:11,890 - INFO - Model for Daily Lotto with hash 97e5ecdd cached successfully.
+2025-07-20 16:29:48,671 - INFO - Trained rf model for Daily Lotto. Train: 81.35%, Test: 0.00%
+2025-07-20 16:40:08,357 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-20 16:40:08,357 - INFO - Model for Daily Lotto with hash 97e5ecdd cached successfully.
+2025-07-20 16:40:12,093 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-20 16:40:12,094 - INFO - Model for Lotto with hash 86adfdb6 cached successfully.
+2025-07-20 16:40:23,680 - INFO - Trained rf model for Daily Lotto. Train: 81.35%, Test: 0.00%
+2025-07-20 16:45:05,345 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-20 16:45:05,345 - INFO - Model for Daily Lotto with hash 97e5ecdd cached successfully.
+2025-07-21 15:06:44,529 - INFO - Successfully loaded and preprocessed 2505 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-21 15:06:59,674 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-21 15:06:59,674 - INFO - Processing DAILY_LOTTO...
+2025-07-21 15:06:59,719 - INFO - Last draw date for daily_lotto in raw data: 2025-07-19
+2025-07-21 15:06:59,719 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-19
+2025-07-21 15:06:59,719 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-21 15:07:00,799 - INFO - Scraped 201 new/recent draws for daily_lotto 2025
+2025-07-21 15:07:02,836 - INFO - Removed 200 duplicate rows for daily_lotto.
+2025-07-21 15:07:02,837 - INFO - Combined daily_lotto data. New draws added: 201. Total unique draws: 2319
+2025-07-21 15:07:02,849 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-21 15:07:03,849 - INFO - Processing LOTTO...
+2025-07-21 15:07:03,893 - INFO - Last draw date for lotto in raw data: 2025-07-19
+2025-07-21 15:07:03,894 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-19
+2025-07-21 15:07:03,894 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-21 15:07:04,582 - INFO - Scraped 58 new/recent draws for lotto 2025
+2025-07-21 15:07:06,974 - INFO - Removed 58 duplicate rows for lotto.
+2025-07-21 15:07:06,974 - INFO - Combined lotto data. New draws added: 58. Total unique draws: 2505
+2025-07-21 15:07:07,264 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-21 15:07:08,300 - INFO - Processing POWERBALL...
+2025-07-21 15:07:08,371 - INFO - Last draw date for powerball in raw data: 2025-07-18
+2025-07-21 15:07:08,372 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-18
+2025-07-21 15:07:08,372 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-21 15:07:11,291 - INFO - Scraped 57 new/recent draws for powerball 2025
+2025-07-21 15:07:13,413 - INFO - Removed 57 duplicate rows for powerball.
+2025-07-21 15:07:13,414 - INFO - Combined powerball data. New draws added: 57. Total unique draws: 1633
+2025-07-21 15:07:13,448 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-21 15:07:14,483 - INFO - Incremental scraping completed by callable function.
+2025-07-21 15:07:14,488 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-21 15:07:14,488 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-21 15:07:14,488 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-21 15:07:14,754 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-21 15:07:14,775 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-21 15:07:14,775 - INFO - Cleaning data for LOTTO...
+2025-07-21 15:07:14,776 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-21 15:07:15,126 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-21 15:07:15,139 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-21 15:07:15,140 - INFO - Cleaning data for POWERBALL...
+2025-07-21 15:07:15,141 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-21 15:07:15,337 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-21 15:07:15,350 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-21 15:07:15,350 - INFO - Data cleaning completed by callable function.
+2025-07-21 15:07:16,026 - INFO - Successfully loaded and preprocessed 2505 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-21 15:07:20,225 - INFO - Successfully loaded and preprocessed 2319 rows for Daily Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-21 15:07:54,720 - INFO - No cached model found for Lotto with hash 86adfdb6.
+2025-07-21 15:08:14,343 - INFO - Trained rf model for Lotto. Train: 72.50%, Test: 0.00%
+2025-07-21 15:09:11,190 - INFO - No cached model found for Daily Lotto with hash 95549763.
+2025-07-21 15:09:34,291 - INFO - Trained rf model for Daily Lotto. Train: 77.31%, Test: 0.00%
+2025-07-21 15:23:32,567 - INFO - Trained gb model for Lotto. Train: 100.00%, Test: 0.00%
+2025-07-21 15:23:32,567 - INFO - Model for Lotto with hash 86adfdb6 cached successfully.
+2025-07-21 15:24:11,268 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-21 15:24:11,268 - INFO - Model for Daily Lotto with hash 95549763 cached successfully.
+2025-07-21 15:45:42,112 - INFO - Trained rf model for Daily Lotto. Train: 77.31%, Test: 0.00%
+2025-07-21 15:50:00,744 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-21 15:50:00,744 - INFO - Model for Daily Lotto with hash 95549763 cached successfully.
+2025-07-21 15:59:17,970 - INFO - Trained rf model for Daily Lotto. Train: 77.31%, Test: 0.00%
+2025-07-21 15:59:22,538 - INFO - Trained rf model for Daily Lotto. Train: 77.31%, Test: 0.00%
+2025-07-21 16:06:32,300 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-21 16:06:32,300 - INFO - Model for Daily Lotto with hash 95549763 cached successfully.
+2025-07-21 16:10:13,565 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-21 16:10:13,565 - INFO - Model for Daily Lotto with hash 95549763 cached successfully.
+2025-07-21 16:40:48,011 - INFO - Trained rf model for Daily Lotto. Train: 77.31%, Test: 0.00%
+2025-07-21 16:45:46,703 - INFO - Trained gb model for Daily Lotto. Train: 100.00%, Test: 0.00%
+2025-07-21 16:45:46,704 - INFO - Model for Daily Lotto with hash 95549763 cached successfully.
+2025-07-25 16:07:22,120 - INFO - Successfully loaded and preprocessed 2505 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-25 16:07:31,199 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-25 16:07:31,199 - INFO - Processing DAILY_LOTTO...
+2025-07-25 16:07:31,236 - INFO - Last draw date for daily_lotto in raw data: 2025-07-20
+2025-07-25 16:07:31,237 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-20
+2025-07-25 16:07:31,237 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-25 16:07:32,213 - INFO - Scraped 205 new/recent draws for daily_lotto 2025
+2025-07-25 16:07:34,282 - INFO - Removed 201 duplicate rows for daily_lotto.
+2025-07-25 16:07:34,282 - INFO - Combined daily_lotto data. New draws added: 205. Total unique draws: 2323
+2025-07-25 16:07:34,295 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-25 16:07:35,295 - INFO - Processing LOTTO...
+2025-07-25 16:07:35,390 - INFO - Last draw date for lotto in raw data: 2025-07-19
+2025-07-25 16:07:35,390 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-19
+2025-07-25 16:07:35,390 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-25 16:07:36,741 - INFO - Scraped 59 new/recent draws for lotto 2025
+2025-07-25 16:07:38,761 - INFO - Removed 58 duplicate rows for lotto.
+2025-07-25 16:07:38,761 - INFO - Combined lotto data. New draws added: 59. Total unique draws: 2506
+2025-07-25 16:07:38,772 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-25 16:07:39,814 - INFO - Processing POWERBALL...
+2025-07-25 16:07:39,857 - INFO - Last draw date for powerball in raw data: 2025-07-18
+2025-07-25 16:07:39,857 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-18
+2025-07-25 16:07:39,857 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-25 16:07:40,916 - INFO - Scraped 58 new/recent draws for powerball 2025
+2025-07-25 16:07:43,339 - INFO - Removed 57 duplicate rows for powerball.
+2025-07-25 16:07:43,340 - INFO - Combined powerball data. New draws added: 58. Total unique draws: 1634
+2025-07-25 16:07:44,252 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-25 16:07:45,304 - INFO - Incremental scraping completed by callable function.
+2025-07-25 16:07:45,312 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-25 16:07:45,313 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-25 16:07:45,313 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-25 16:07:45,763 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-25 16:07:46,008 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-25 16:07:46,008 - INFO - Cleaning data for LOTTO...
+2025-07-25 16:07:46,009 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-25 16:07:46,414 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-25 16:07:46,437 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-25 16:07:46,438 - INFO - Cleaning data for POWERBALL...
+2025-07-25 16:07:46,439 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-25 16:07:46,654 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-25 16:07:46,664 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-25 16:07:46,665 - INFO - Data cleaning completed by callable function.
+2025-07-25 16:07:47,351 - INFO - Successfully loaded and preprocessed 2506 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-25 16:10:21,955 - INFO - Successfully loaded and preprocessed 1634 rows for Powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-27 13:59:18,722 - INFO - Successfully loaded and preprocessed 2506 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-27 14:11:14,073 - INFO - Successfully loaded and preprocessed 2506 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-27 14:11:19,414 - INFO - Starting incremental lottery data scraping process from callable function...
+2025-07-27 14:11:19,414 - INFO - Processing DAILY_LOTTO...
+2025-07-27 14:11:19,590 - INFO - Last draw date for daily_lotto in raw data: 2025-07-24
+2025-07-27 14:11:19,592 - INFO - Updating DAILY_LOTTO data. Starting from year 2025 with last known date 2025-07-24
+2025-07-27 14:11:19,592 - INFO - Fetching URL: https://www.lottery.co.za/daily-lotto/results/2025 for daily_lotto (Year: 2025)
+2025-07-27 14:11:21,031 - INFO - Scraped 207 new/recent draws for daily_lotto 2025
+2025-07-27 14:11:23,070 - INFO - Removed 205 duplicate rows for daily_lotto.
+2025-07-27 14:11:23,070 - INFO - Combined daily_lotto data. New draws added: 207. Total unique draws: 2325
+2025-07-27 14:11:23,084 - INFO - Updated raw daily_lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv
+2025-07-27 14:11:24,085 - INFO - Processing LOTTO...
+2025-07-27 14:11:24,147 - INFO - Last draw date for lotto in raw data: 2025-07-23
+2025-07-27 14:11:24,148 - INFO - Updating LOTTO data. Starting from year 2025 with last known date 2025-07-23
+2025-07-27 14:11:24,148 - INFO - Fetching URL: https://www.lottery.co.za/lotto/results/2025 for lotto (Year: 2025)
+2025-07-27 14:11:24,836 - INFO - Scraped 60 new/recent draws for lotto 2025
+2025-07-27 14:11:26,890 - INFO - Removed 59 duplicate rows for lotto.
+2025-07-27 14:11:26,890 - INFO - Combined lotto data. New draws added: 60. Total unique draws: 2507
+2025-07-27 14:11:26,911 - INFO - Updated raw lotto data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv
+2025-07-27 14:11:27,912 - INFO - Processing POWERBALL...
+2025-07-27 14:11:27,938 - INFO - Last draw date for powerball in raw data: 2025-07-22
+2025-07-27 14:11:27,938 - INFO - Updating POWERBALL data. Starting from year 2025 with last known date 2025-07-22
+2025-07-27 14:11:27,938 - INFO - Fetching URL: https://www.lottery.co.za/powerball/results/2025 for powerball (Year: 2025)
+2025-07-27 14:11:28,634 - INFO - Scraped 59 new/recent draws for powerball 2025
+2025-07-27 14:11:31,172 - INFO - Removed 58 duplicate rows for powerball.
+2025-07-27 14:11:31,173 - INFO - Combined powerball data. New draws added: 59. Total unique draws: 1635
+2025-07-27 14:11:31,194 - INFO - Updated raw powerball data saved to: C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv
+2025-07-27 14:11:32,260 - INFO - Incremental scraping completed by callable function.
+2025-07-27 14:11:32,262 - INFO - Starting comprehensive lottery data cleaning process from callable function...
+2025-07-27 14:11:32,262 - INFO - Cleaning data for DAILY_LOTTO...
+2025-07-27 14:11:32,263 - INFO - Loading raw data for daily_lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\daily_lotto_results_all_years.csv...
+2025-07-27 14:11:33,316 - INFO - Cleaned daily_lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.csv
+2025-07-27 14:11:33,715 - INFO - Cleaned daily_lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\daily_lotto_results_all_years.parquet
+2025-07-27 14:11:33,715 - INFO - Cleaning data for LOTTO...
+2025-07-27 14:11:33,715 - INFO - Loading raw data for lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\lotto_results_all_years.csv...
+2025-07-27 14:11:33,970 - INFO - Cleaned lotto data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.csv
+2025-07-27 14:11:35,024 - INFO - Cleaned lotto data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
+2025-07-27 14:11:35,024 - INFO - Cleaning data for POWERBALL...
+2025-07-27 14:11:35,027 - INFO - Loading raw data for powerball from C:\Users\Robert\PycharmProjects\LottoHelper\data\results\powerball_results_all_years.csv...
+2025-07-27 14:11:35,540 - INFO - Cleaned powerball data saved to CSV: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.csv
+2025-07-27 14:11:35,619 - INFO - Cleaned powerball data saved to Parquet: C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\powerball_results_all_years.parquet
+2025-07-27 14:11:35,620 - INFO - Data cleaning completed by callable function.
+2025-07-27 14:11:36,271 - INFO - Successfully loaded and preprocessed 2507 rows for Lotto from C:\Users\Robert\PycharmProjects\LottoHelper\data\cleaned\lotto_results_all_years.parquet
